@@ -1,0 +1,6414 @@
+{
+  "version": "1.1.0",
+  "counts_first_100": {
+    "episodes": 100,
+    "episodes_with_ties": 0,
+    "episodes_mixed_dimensions": 0,
+    "permutations": 5544,
+    "TN": 5444,
+    "TP": 100,
+    "FP": 0,
+    "FN": 0,
+    "episodes_with_disagreement": 0
+  },
+  "unique_sorting_tasks_first_100": 100,
+  "unique_sorting_tasks_first_300": 100,
+  "each_task_repeats_every_100": true,
+  "tie_episodes_first_300": 0,
+  "mixed_dimension_episodes_first_300": 0,
+  "slices_first_100": {
+    "all": {
+      "episodes": 100,
+      "permutations": 5544,
+      "TN": 5444,
+      "TP": 100,
+      "FN_Wilson95_upper_percent": 3.6993498206985658,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.03699349820698566
+      ]
+    },
+    "dimension=count": {
+      "episodes": 25,
+      "permutations": 1032,
+      "TP": 25,
+      "TN": 1007,
+      "FN_Wilson95_upper_percent": 13.319225093904844,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.13319225093904843
+      ]
+    },
+    "dimension=length": {
+      "episodes": 25,
+      "permutations": 1722,
+      "TN": 1697,
+      "TP": 25,
+      "FN_Wilson95_upper_percent": 13.319225093904844,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.13319225093904843
+      ]
+    },
+    "dimension=mass": {
+      "episodes": 25,
+      "permutations": 1854,
+      "TN": 1829,
+      "TP": 25,
+      "FN_Wilson95_upper_percent": 13.319225093904844,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.13319225093904843
+      ]
+    },
+    "dimension=volume": {
+      "episodes": 25,
+      "permutations": 936,
+      "TN": 911,
+      "TP": 25,
+      "FN_Wilson95_upper_percent": 13.319225093904844,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.13319225093904843
+      ]
+    },
+    "objects=3": {
+      "episodes": 28,
+      "permutations": 168,
+      "TN": 140,
+      "TP": 28,
+      "FN_Wilson95_upper_percent": 12.064330476584558,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.12064330476584559
+      ]
+    },
+    "objects=3,units=mixed-units": {
+      "episodes": 19,
+      "permutations": 114,
+      "TN": 95,
+      "TP": 19,
+      "FN_Wilson95_upper_percent": 16.81792240526162,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.16817922405261618
+      ]
+    },
+    "objects=3,units=single-unit": {
+      "episodes": 1,
+      "permutations": 6,
+      "TN": 5,
+      "TP": 1,
+      "FN_Wilson95_upper_percent": 79.34506856227625,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "objects=3,units=unitless": {
+      "episodes": 8,
+      "permutations": 48,
+      "TN": 40,
+      "TP": 8,
+      "FN_Wilson95_upper_percent": 32.44075648838801,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.3244075648838801
+      ]
+    },
+    "objects=4": {
+      "episodes": 34,
+      "permutations": 816,
+      "TP": 34,
+      "TN": 782,
+      "FN_Wilson95_upper_percent": 10.151455415332375,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        6.938893903907228e-18,
+        0.10151455415332375
+      ]
+    },
+    "objects=4,units=mixed-units": {
+      "episodes": 22,
+      "permutations": 528,
+      "TN": 506,
+      "TP": 22,
+      "FN_Wilson95_upper_percent": 14.865487460862084,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.14865487460862087
+      ]
+    },
+    "objects=4,units=single-unit": {
+      "episodes": 1,
+      "permutations": 24,
+      "TN": 23,
+      "TP": 1,
+      "FN_Wilson95_upper_percent": 79.34506856227625,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "objects=4,units=unitless": {
+      "episodes": 11,
+      "permutations": 264,
+      "TP": 11,
+      "TN": 253,
+      "FN_Wilson95_upper_percent": 25.883296696803164,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.25883296696803165
+      ]
+    },
+    "objects=5": {
+      "episodes": 38,
+      "permutations": 4560,
+      "TN": 4522,
+      "TP": 38,
+      "FN_Wilson95_upper_percent": 9.180986822558392,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.09180986822558392
+      ]
+    },
+    "objects=5,units=mixed-units": {
+      "episodes": 31,
+      "permutations": 3720,
+      "TN": 3689,
+      "TP": 31,
+      "FN_Wilson95_upper_percent": 11.025539546043591,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.1102553954604359
+      ]
+    },
+    "objects=5,units=single-unit": {
+      "episodes": 1,
+      "permutations": 120,
+      "TP": 1,
+      "TN": 119,
+      "FN_Wilson95_upper_percent": 79.34506856227625,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "objects=5,units=unitless": {
+      "episodes": 6,
+      "permutations": 720,
+      "TP": 6,
+      "TN": 714,
+      "FN_Wilson95_upper_percent": 39.033428790216526,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.39033428790216523
+      ]
+    },
+    "units=mixed-units": {
+      "episodes": 72,
+      "permutations": 4362,
+      "TN": 4290,
+      "TP": 72,
+      "FN_Wilson95_upper_percent": 5.065117259645778,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.05065117259645778
+      ]
+    },
+    "units=single-unit": {
+      "episodes": 3,
+      "permutations": 150,
+      "TN": 147,
+      "TP": 3,
+      "FN_Wilson95_upper_percent": 56.14970317550454,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.5614970317550454
+      ]
+    },
+    "units=unitless": {
+      "episodes": 25,
+      "permutations": 1032,
+      "TP": 25,
+      "TN": 1007,
+      "FN_Wilson95_upper_percent": 13.319225093904844,
+      "FP": 0,
+      "FN": 0,
+      "FN_Wilson95": [
+        0.0,
+        0.13319225093904843
+      ]
+    }
+  },
+  "mismatches": [],
+  "records": [
+    {
+      "seed": 0,
+      "items": [
+        "11l of aluminum",
+        "19ml of aluminum",
+        "29l of metal",
+        "48l of rubber",
+        "4l of glass"
+      ],
+      "normalized_values": {
+        "11l of aluminum": "11000",
+        "19ml of aluminum": "19",
+        "29l of metal": "29000",
+        "48l of rubber": "48000",
+        "4l of glass": "4000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 1,
+      "items": [
+        "18ml of aluminum",
+        "31ml of aluminum",
+        "3ml of brass",
+        "45l of metal",
+        "6l of aluminum"
+      ],
+      "normalized_values": {
+        "18ml of aluminum": "18",
+        "31ml of aluminum": "31",
+        "3ml of brass": "3",
+        "45l of metal": "45000",
+        "6l of aluminum": "6000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 2,
+      "items": [
+        "23l of rubber",
+        "30ml of aluminum",
+        "5l of rubber"
+      ],
+      "normalized_values": {
+        "23l of rubber": "23000",
+        "30ml of aluminum": "30",
+        "5l of rubber": "5000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 3,
+      "items": [
+        "25 squashes",
+        "36 peas",
+        "44 prunes",
+        "45 peas"
+      ],
+      "normalized_values": {
+        "25 squashes": "25",
+        "36 peas": "36",
+        "44 prunes": "44",
+        "45 peas": "45"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 4,
+      "items": [
+        "19l of glass",
+        "22ml of glass",
+        "40ml of metal",
+        "43ml of aluminum",
+        "48l of aluminum"
+      ],
+      "normalized_values": {
+        "19l of glass": "19000",
+        "22ml of glass": "22",
+        "40ml of metal": "40",
+        "43ml of aluminum": "43",
+        "48l of aluminum": "48000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 5,
+      "items": [
+        "21 peppers",
+        "25 peas",
+        "29 peas",
+        "33 avocados",
+        "38 tomatoes"
+      ],
+      "normalized_values": {
+        "21 peppers": "21",
+        "25 peas": "25",
+        "29 peas": "29",
+        "33 avocados": "33",
+        "38 tomatoes": "38"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 6,
+      "items": [
+        "10kg of glass",
+        "16g of aluminum",
+        "25mg of brass",
+        "34kg of metal",
+        "8g of brass"
+      ],
+      "normalized_values": {
+        "10kg of glass": "10000000",
+        "16g of aluminum": "16000",
+        "25mg of brass": "25",
+        "34kg of metal": "34000000",
+        "8g of brass": "8000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 7,
+      "items": [
+        "12ml of aluminum",
+        "17l of aluminum",
+        "23ml of aluminum"
+      ],
+      "normalized_values": {
+        "12ml of aluminum": "12",
+        "17l of aluminum": "17000",
+        "23ml of aluminum": "23"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 8,
+      "items": [
+        "11ml of glass",
+        "31l of metal",
+        "32ml of metal",
+        "40l of brass"
+      ],
+      "normalized_values": {
+        "11ml of glass": "11",
+        "31l of metal": "31000",
+        "32ml of metal": "32",
+        "40l of brass": "40000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 9,
+      "items": [
+        "13kg of glass",
+        "17mg of metal",
+        "26mg of brass",
+        "3kg of rubber",
+        "6mg of aluminum"
+      ],
+      "normalized_values": {
+        "13kg of glass": "13000000",
+        "17mg of metal": "17",
+        "26mg of brass": "26",
+        "3kg of rubber": "3000000",
+        "6mg of aluminum": "6"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 10,
+      "items": [
+        "15 avocados",
+        "49 tomatoes",
+        "9 tomatoes"
+      ],
+      "normalized_values": {
+        "15 avocados": "15",
+        "49 tomatoes": "49",
+        "9 tomatoes": "9"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 11,
+      "items": [
+        "25m of glass",
+        "28mm of rubber",
+        "33mm of brass",
+        "45m of metal",
+        "48m of rubber"
+      ],
+      "normalized_values": {
+        "25m of glass": "25000",
+        "28mm of rubber": "28",
+        "33mm of brass": "33",
+        "45m of metal": "45000",
+        "48m of rubber": "48000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 12,
+      "items": [
+        "1cm of aluminum",
+        "21cm of glass",
+        "2mm of brass",
+        "4m of glass",
+        "7m of brass"
+      ],
+      "normalized_values": {
+        "1cm of aluminum": "10",
+        "21cm of glass": "210",
+        "2mm of brass": "2",
+        "4m of glass": "4000",
+        "7m of brass": "7000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 13,
+      "items": [
+        "17kg of brass",
+        "41mg of rubber",
+        "42g of rubber",
+        "4mg of glass"
+      ],
+      "normalized_values": {
+        "17kg of brass": "17000000",
+        "41mg of rubber": "41",
+        "42g of rubber": "42000",
+        "4mg of glass": "4"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 14,
+      "items": [
+        "13cm of brass",
+        "20m of glass",
+        "23mm of brass",
+        "27cm of brass",
+        "49cm of glass"
+      ],
+      "normalized_values": {
+        "13cm of brass": "130",
+        "20m of glass": "20000",
+        "23mm of brass": "23",
+        "27cm of brass": "270",
+        "49cm of glass": "490"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 15,
+      "items": [
+        "12mg of brass",
+        "16mg of brass",
+        "32g of rubber",
+        "39g of brass",
+        "49mg of metal"
+      ],
+      "normalized_values": {
+        "12mg of brass": "12",
+        "16mg of brass": "16",
+        "32g of rubber": "32000",
+        "39g of brass": "39000",
+        "49mg of metal": "49"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 16,
+      "items": [
+        "15 avocados",
+        "25 tomatoes",
+        "30 cabbages",
+        "45 squashes"
+      ],
+      "normalized_values": {
+        "15 avocados": "15",
+        "25 tomatoes": "25",
+        "30 cabbages": "30",
+        "45 squashes": "45"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 17,
+      "items": [
+        "10l of metal",
+        "16ml of metal",
+        "33ml of aluminum",
+        "35ml of metal"
+      ],
+      "normalized_values": {
+        "10l of metal": "10000",
+        "16ml of metal": "16",
+        "33ml of aluminum": "33",
+        "35ml of metal": "35"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 18,
+      "items": [
+        "13m of rubber",
+        "14mm of rubber",
+        "47mm of metal",
+        "7m of metal"
+      ],
+      "normalized_values": {
+        "13m of rubber": "13000",
+        "14mm of rubber": "14",
+        "47mm of metal": "47",
+        "7m of metal": "7000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 19,
+      "items": [
+        "14mg of aluminum",
+        "44mg of aluminum",
+        "49g of glass",
+        "5g of rubber",
+        "6kg of aluminum"
+      ],
+      "normalized_values": {
+        "14mg of aluminum": "14",
+        "44mg of aluminum": "44",
+        "49g of glass": "49000",
+        "5g of rubber": "5000",
+        "6kg of aluminum": "6000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 20,
+      "items": [
+        "14cm of glass",
+        "22m of metal",
+        "32cm of aluminum",
+        "36cm of aluminum"
+      ],
+      "normalized_values": {
+        "14cm of glass": "140",
+        "22m of metal": "22000",
+        "32cm of aluminum": "320",
+        "36cm of aluminum": "360"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 21,
+      "items": [
+        "30kg of brass",
+        "39kg of aluminum",
+        "44kg of glass",
+        "6g of rubber"
+      ],
+      "normalized_values": {
+        "30kg of brass": "30000000",
+        "39kg of aluminum": "39000000",
+        "44kg of glass": "44000000",
+        "6g of rubber": "6000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 22,
+      "items": [
+        "1mg of glass",
+        "24mg of rubber",
+        "31g of rubber",
+        "35kg of aluminum",
+        "43g of glass"
+      ],
+      "normalized_values": {
+        "1mg of glass": "1",
+        "24mg of rubber": "24",
+        "31g of rubber": "31000",
+        "35kg of aluminum": "35000000",
+        "43g of glass": "43000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 23,
+      "items": [
+        "16mg of brass",
+        "18kg of aluminum",
+        "3g of metal",
+        "40g of brass",
+        "46g of rubber"
+      ],
+      "normalized_values": {
+        "16mg of brass": "16",
+        "18kg of aluminum": "18000000",
+        "3g of metal": "3000",
+        "40g of brass": "40000",
+        "46g of rubber": "46000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 24,
+      "items": [
+        "15ml of metal",
+        "17ml of metal",
+        "4ml of glass",
+        "7ml of metal"
+      ],
+      "normalized_values": {
+        "15ml of metal": "15",
+        "17ml of metal": "17",
+        "4ml of glass": "4",
+        "7ml of metal": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 25,
+      "items": [
+        "26mg of brass",
+        "34kg of brass",
+        "43kg of brass"
+      ],
+      "normalized_values": {
+        "26mg of brass": "26",
+        "34kg of brass": "34000000",
+        "43kg of brass": "43000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 26,
+      "items": [
+        "16cm of metal",
+        "22cm of metal",
+        "25cm of aluminum",
+        "32cm of brass",
+        "34cm of glass"
+      ],
+      "normalized_values": {
+        "16cm of metal": "160",
+        "22cm of metal": "220",
+        "25cm of aluminum": "250",
+        "32cm of brass": "320",
+        "34cm of glass": "340"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 27,
+      "items": [
+        "12m of metal",
+        "14mm of metal",
+        "26mm of rubber",
+        "28cm of metal"
+      ],
+      "normalized_values": {
+        "12m of metal": "12000",
+        "14mm of metal": "14",
+        "26mm of rubber": "26",
+        "28cm of metal": "280"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 28,
+      "items": [
+        "11cm of aluminum",
+        "17cm of glass",
+        "42m of metal"
+      ],
+      "normalized_values": {
+        "11cm of aluminum": "110",
+        "17cm of glass": "170",
+        "42m of metal": "42000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 29,
+      "items": [
+        "16 eggplants",
+        "26 squashes",
+        "35 eggplants",
+        "8 eggplants"
+      ],
+      "normalized_values": {
+        "16 eggplants": "16",
+        "26 squashes": "26",
+        "35 eggplants": "35",
+        "8 eggplants": "8"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 30,
+      "items": [
+        "17mg of glass",
+        "21mg of aluminum",
+        "38g of metal",
+        "3mg of aluminum",
+        "6mg of rubber"
+      ],
+      "normalized_values": {
+        "17mg of glass": "17",
+        "21mg of aluminum": "21",
+        "38g of metal": "38000",
+        "3mg of aluminum": "3",
+        "6mg of rubber": "6"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 31,
+      "items": [
+        "14ml of aluminum",
+        "25ml of metal",
+        "26l of metal",
+        "32l of aluminum"
+      ],
+      "normalized_values": {
+        "14ml of aluminum": "14",
+        "25ml of metal": "25",
+        "26l of metal": "26000",
+        "32l of aluminum": "32000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 32,
+      "items": [
+        "20kg of aluminum",
+        "23mg of metal",
+        "34kg of aluminum",
+        "44g of brass",
+        "49mg of glass"
+      ],
+      "normalized_values": {
+        "20kg of aluminum": "20000000",
+        "23mg of metal": "23",
+        "34kg of aluminum": "34000000",
+        "44g of brass": "44000",
+        "49mg of glass": "49"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 33,
+      "items": [
+        "12 eggplants",
+        "30 prunes",
+        "43 avocados"
+      ],
+      "normalized_values": {
+        "12 eggplants": "12",
+        "30 prunes": "30",
+        "43 avocados": "43"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 34,
+      "items": [
+        "11 avocados",
+        "16 peppers",
+        "32 eggplants",
+        "39 tomatoes",
+        "5 blueberries"
+      ],
+      "normalized_values": {
+        "11 avocados": "11",
+        "16 peppers": "16",
+        "32 eggplants": "32",
+        "39 tomatoes": "39",
+        "5 blueberries": "5"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 35,
+      "items": [
+        "26 pumpkins",
+        "29 peas",
+        "30 cabbages"
+      ],
+      "normalized_values": {
+        "26 pumpkins": "26",
+        "29 peas": "29",
+        "30 cabbages": "30"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 36,
+      "items": [
+        "1g of rubber",
+        "20g of metal",
+        "41g of brass",
+        "50mg of brass",
+        "6kg of metal"
+      ],
+      "normalized_values": {
+        "1g of rubber": "1000",
+        "20g of metal": "20000",
+        "41g of brass": "41000",
+        "50mg of brass": "50",
+        "6kg of metal": "6000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 37,
+      "items": [
+        "24 peppers",
+        "5 pumpkins",
+        "7 eggplants"
+      ],
+      "normalized_values": {
+        "24 peppers": "24",
+        "5 pumpkins": "5",
+        "7 eggplants": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 38,
+      "items": [
+        "12kg of aluminum",
+        "26mg of brass",
+        "39g of brass",
+        "8kg of rubber"
+      ],
+      "normalized_values": {
+        "12kg of aluminum": "12000000",
+        "26mg of brass": "26",
+        "39g of brass": "39000",
+        "8kg of rubber": "8000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 39,
+      "items": [
+        "31 peppers",
+        "37 eggplants",
+        "5 avocados",
+        "7 tomatoes"
+      ],
+      "normalized_values": {
+        "31 peppers": "31",
+        "37 eggplants": "37",
+        "5 avocados": "5",
+        "7 tomatoes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 40,
+      "items": [
+        "35ml of glass",
+        "39l of glass",
+        "50ml of glass"
+      ],
+      "normalized_values": {
+        "35ml of glass": "35",
+        "39l of glass": "39000",
+        "50ml of glass": "50"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 41,
+      "items": [
+        "13kg of glass",
+        "24mg of metal",
+        "8g of brass"
+      ],
+      "normalized_values": {
+        "13kg of glass": "13000000",
+        "24mg of metal": "24",
+        "8g of brass": "8000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 42,
+      "items": [
+        "34 squashes",
+        "43 prunes",
+        "48 peas",
+        "8 cabbages",
+        "9 eggplants"
+      ],
+      "normalized_values": {
+        "34 squashes": "34",
+        "43 prunes": "43",
+        "48 peas": "48",
+        "8 cabbages": "8",
+        "9 eggplants": "9"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 43,
+      "items": [
+        "14mm of aluminum",
+        "16m of glass",
+        "17mm of glass",
+        "39cm of rubber",
+        "5mm of aluminum"
+      ],
+      "normalized_values": {
+        "14mm of aluminum": "14",
+        "16m of glass": "16000",
+        "17mm of glass": "17",
+        "39cm of rubber": "390",
+        "5mm of aluminum": "5"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 44,
+      "items": [
+        "1l of aluminum",
+        "23ml of aluminum",
+        "7ml of brass"
+      ],
+      "normalized_values": {
+        "1l of aluminum": "1000",
+        "23ml of aluminum": "23",
+        "7ml of brass": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 45,
+      "items": [
+        "10kg of metal",
+        "20g of metal",
+        "23g of metal"
+      ],
+      "normalized_values": {
+        "10kg of metal": "10000000",
+        "20g of metal": "20000",
+        "23g of metal": "23000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 46,
+      "items": [
+        "12ml of metal",
+        "17ml of brass",
+        "24ml of rubber",
+        "47l of aluminum"
+      ],
+      "normalized_values": {
+        "12ml of metal": "12",
+        "17ml of brass": "17",
+        "24ml of rubber": "24",
+        "47l of aluminum": "47000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 47,
+      "items": [
+        "28 peppers",
+        "3 tomatoes",
+        "41 peas"
+      ],
+      "normalized_values": {
+        "28 peppers": "28",
+        "3 tomatoes": "3",
+        "41 peas": "41"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 48,
+      "items": [
+        "14kg of metal",
+        "16g of rubber",
+        "17g of rubber",
+        "19mg of brass",
+        "25g of rubber"
+      ],
+      "normalized_values": {
+        "14kg of metal": "14000000",
+        "16g of rubber": "16000",
+        "17g of rubber": "17000",
+        "19mg of brass": "19",
+        "25g of rubber": "25000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 49,
+      "items": [
+        "1m of aluminum",
+        "21cm of metal",
+        "42cm of glass"
+      ],
+      "normalized_values": {
+        "1m of aluminum": "1000",
+        "21cm of metal": "210",
+        "42cm of glass": "420"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 50,
+      "items": [
+        "12g of glass",
+        "22g of rubber",
+        "23g of rubber",
+        "41kg of metal"
+      ],
+      "normalized_values": {
+        "12g of glass": "12000",
+        "22g of rubber": "22000",
+        "23g of rubber": "23000",
+        "41kg of metal": "41000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 51,
+      "items": [
+        "14ml of metal",
+        "19l of glass",
+        "30l of glass"
+      ],
+      "normalized_values": {
+        "14ml of metal": "14",
+        "19l of glass": "19000",
+        "30l of glass": "30000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 52,
+      "items": [
+        "13 tomatoes",
+        "33 prunes",
+        "41 peppers",
+        "5 peas",
+        "7 tomatoes"
+      ],
+      "normalized_values": {
+        "13 tomatoes": "13",
+        "33 prunes": "33",
+        "41 peppers": "41",
+        "5 peas": "5",
+        "7 tomatoes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 53,
+      "items": [
+        "11ml of aluminum",
+        "22ml of rubber",
+        "24ml of brass",
+        "37l of metal"
+      ],
+      "normalized_values": {
+        "11ml of aluminum": "11",
+        "22ml of rubber": "22",
+        "24ml of brass": "24",
+        "37l of metal": "37000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 54,
+      "items": [
+        "11ml of glass",
+        "1l of rubber",
+        "21l of metal"
+      ],
+      "normalized_values": {
+        "11ml of glass": "11",
+        "1l of rubber": "1000",
+        "21l of metal": "21000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 55,
+      "items": [
+        "23l of metal",
+        "42ml of brass",
+        "47ml of metal",
+        "48l of rubber"
+      ],
+      "normalized_values": {
+        "23l of metal": "23000",
+        "42ml of brass": "42",
+        "47ml of metal": "47",
+        "48l of rubber": "48000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 56,
+      "items": [
+        "1kg of rubber",
+        "20mg of glass",
+        "38kg of rubber",
+        "4mg of metal",
+        "50mg of brass"
+      ],
+      "normalized_values": {
+        "1kg of rubber": "1000000",
+        "20mg of glass": "20",
+        "38kg of rubber": "38000000",
+        "4mg of metal": "4",
+        "50mg of brass": "50"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 57,
+      "items": [
+        "15 blueberries",
+        "4 avocados",
+        "50 eggplants",
+        "8 eggplants"
+      ],
+      "normalized_values": {
+        "15 blueberries": "15",
+        "4 avocados": "4",
+        "50 eggplants": "50",
+        "8 eggplants": "8"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 58,
+      "items": [
+        "12 cabbages",
+        "49 peppers",
+        "5 peas"
+      ],
+      "normalized_values": {
+        "12 cabbages": "12",
+        "49 peppers": "49",
+        "5 peas": "5"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 59,
+      "items": [
+        "27mg of metal",
+        "2g of glass",
+        "36g of aluminum",
+        "50mg of aluminum"
+      ],
+      "normalized_values": {
+        "27mg of metal": "27",
+        "2g of glass": "2000",
+        "36g of aluminum": "36000",
+        "50mg of aluminum": "50"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 60,
+      "items": [
+        "1 tomato",
+        "24 cabbages",
+        "6 pumpkins",
+        "7 peas"
+      ],
+      "normalized_values": {
+        "1 tomato": "1",
+        "24 cabbages": "24",
+        "6 pumpkins": "6",
+        "7 peas": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 61,
+      "items": [
+        "14l of brass",
+        "22ml of glass",
+        "5ml of glass",
+        "7ml of rubber"
+      ],
+      "normalized_values": {
+        "14l of brass": "14000",
+        "22ml of glass": "22",
+        "5ml of glass": "5",
+        "7ml of rubber": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 62,
+      "items": [
+        "11mm of rubber",
+        "22mm of glass",
+        "7mm of glass"
+      ],
+      "normalized_values": {
+        "11mm of rubber": "11",
+        "22mm of glass": "22",
+        "7mm of glass": "7"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 63,
+      "items": [
+        "10cm of glass",
+        "16m of brass",
+        "21mm of glass",
+        "24m of rubber",
+        "47m of aluminum"
+      ],
+      "normalized_values": {
+        "10cm of glass": "100",
+        "16m of brass": "16000",
+        "21mm of glass": "21",
+        "24m of rubber": "24000",
+        "47m of aluminum": "47000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 64,
+      "items": [
+        "13cm of glass",
+        "17mm of glass",
+        "32mm of metal",
+        "36cm of glass",
+        "8m of glass"
+      ],
+      "normalized_values": {
+        "13cm of glass": "130",
+        "17mm of glass": "17",
+        "32mm of metal": "32",
+        "36cm of glass": "360",
+        "8m of glass": "8000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 65,
+      "items": [
+        "20g of metal",
+        "24g of rubber",
+        "26mg of glass",
+        "42kg of brass",
+        "50g of rubber"
+      ],
+      "normalized_values": {
+        "20g of metal": "20000",
+        "24g of rubber": "24000",
+        "26mg of glass": "26",
+        "42kg of brass": "42000000",
+        "50g of rubber": "50000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 66,
+      "items": [
+        "11mg of rubber",
+        "29kg of rubber",
+        "6g of aluminum"
+      ],
+      "normalized_values": {
+        "11mg of rubber": "11",
+        "29kg of rubber": "29000000",
+        "6g of aluminum": "6000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 67,
+      "items": [
+        "1cm of aluminum",
+        "28mm of aluminum",
+        "32mm of rubber",
+        "33cm of aluminum",
+        "42cm of rubber"
+      ],
+      "normalized_values": {
+        "1cm of aluminum": "10",
+        "28mm of aluminum": "28",
+        "32mm of rubber": "32",
+        "33cm of aluminum": "330",
+        "42cm of rubber": "420"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 68,
+      "items": [
+        "16m of glass",
+        "33m of brass",
+        "39cm of metal"
+      ],
+      "normalized_values": {
+        "16m of glass": "16000",
+        "33m of brass": "33000",
+        "39cm of metal": "390"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 69,
+      "items": [
+        "16 blueberries",
+        "25 eggplants",
+        "27 tomatoes",
+        "37 avocados"
+      ],
+      "normalized_values": {
+        "16 blueberries": "16",
+        "25 eggplants": "25",
+        "27 tomatoes": "27",
+        "37 avocados": "37"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 70,
+      "items": [
+        "12mm of rubber",
+        "37m of aluminum",
+        "46mm of brass",
+        "49cm of aluminum",
+        "4mm of brass"
+      ],
+      "normalized_values": {
+        "12mm of rubber": "12",
+        "37m of aluminum": "37000",
+        "46mm of brass": "46",
+        "49cm of aluminum": "490",
+        "4mm of brass": "4"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 71,
+      "items": [
+        "14l of metal",
+        "40ml of glass",
+        "42l of metal",
+        "47l of aluminum"
+      ],
+      "normalized_values": {
+        "14l of metal": "14000",
+        "40ml of glass": "40",
+        "42l of metal": "42000",
+        "47l of aluminum": "47000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 72,
+      "items": [
+        "25ml of rubber",
+        "35l of metal",
+        "46ml of aluminum"
+      ],
+      "normalized_values": {
+        "25ml of rubber": "25",
+        "35l of metal": "35000",
+        "46ml of aluminum": "46"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 73,
+      "items": [
+        "10mg of metal",
+        "17g of glass",
+        "29kg of rubber",
+        "39g of metal",
+        "47mg of brass"
+      ],
+      "normalized_values": {
+        "10mg of metal": "10",
+        "17g of glass": "17000",
+        "29kg of rubber": "29000000",
+        "39g of metal": "39000",
+        "47mg of brass": "47"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 74,
+      "items": [
+        "27l of rubber",
+        "2l of glass",
+        "36l of glass",
+        "40ml of metal",
+        "45l of brass"
+      ],
+      "normalized_values": {
+        "27l of rubber": "27000",
+        "2l of glass": "2000",
+        "36l of glass": "36000",
+        "40ml of metal": "40",
+        "45l of brass": "45000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 75,
+      "items": [
+        "21l of brass",
+        "38ml of aluminum",
+        "48l of rubber",
+        "8ml of rubber"
+      ],
+      "normalized_values": {
+        "21l of brass": "21000",
+        "38ml of aluminum": "38",
+        "48l of rubber": "48000",
+        "8ml of rubber": "8"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 76,
+      "items": [
+        "36cm of aluminum",
+        "40cm of brass",
+        "4m of glass"
+      ],
+      "normalized_values": {
+        "36cm of aluminum": "360",
+        "40cm of brass": "400",
+        "4m of glass": "4000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 77,
+      "items": [
+        "16ml of metal",
+        "41l of metal",
+        "45ml of metal",
+        "50ml of rubber"
+      ],
+      "normalized_values": {
+        "16ml of metal": "16",
+        "41l of metal": "41000",
+        "45ml of metal": "45",
+        "50ml of rubber": "50"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 78,
+      "items": [
+        "12 avocados",
+        "16 cabbages",
+        "37 peppers",
+        "50 blueberries"
+      ],
+      "normalized_values": {
+        "12 avocados": "12",
+        "16 cabbages": "16",
+        "37 peppers": "37",
+        "50 blueberries": "50"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 79,
+      "items": [
+        "17cm of rubber",
+        "21mm of glass",
+        "22cm of brass",
+        "42mm of metal",
+        "50m of metal"
+      ],
+      "normalized_values": {
+        "17cm of rubber": "170",
+        "21mm of glass": "21",
+        "22cm of brass": "220",
+        "42mm of metal": "42",
+        "50m of metal": "50000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 80,
+      "items": [
+        "20mg of rubber",
+        "22g of rubber",
+        "34mg of metal"
+      ],
+      "normalized_values": {
+        "20mg of rubber": "20",
+        "22g of rubber": "22000",
+        "34mg of metal": "34"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 81,
+      "items": [
+        "11kg of aluminum",
+        "16kg of glass",
+        "23mg of aluminum",
+        "32g of aluminum"
+      ],
+      "normalized_values": {
+        "11kg of aluminum": "11000000",
+        "16kg of glass": "16000000",
+        "23mg of aluminum": "23",
+        "32g of aluminum": "32000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 82,
+      "items": [
+        "1 eggplant",
+        "24 squashes",
+        "4 prunes",
+        "44 tomatoes",
+        "48 peas"
+      ],
+      "normalized_values": {
+        "1 eggplant": "1",
+        "24 squashes": "24",
+        "4 prunes": "4",
+        "44 tomatoes": "44",
+        "48 peas": "48"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 83,
+      "items": [
+        "20 pumpkins",
+        "26 peppers",
+        "29 prunes",
+        "7 squashes"
+      ],
+      "normalized_values": {
+        "20 pumpkins": "20",
+        "26 peppers": "26",
+        "29 prunes": "29",
+        "7 squashes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 84,
+      "items": [
+        "12cm of rubber",
+        "39mm of glass",
+        "46mm of aluminum"
+      ],
+      "normalized_values": {
+        "12cm of rubber": "120",
+        "39mm of glass": "39",
+        "46mm of aluminum": "46"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 85,
+      "items": [
+        "13mm of rubber",
+        "42cm of metal",
+        "43m of brass",
+        "45cm of aluminum",
+        "4m of rubber"
+      ],
+      "normalized_values": {
+        "13mm of rubber": "13",
+        "42cm of metal": "420",
+        "43m of brass": "43000",
+        "45cm of aluminum": "450",
+        "4m of rubber": "4000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 86,
+      "items": [
+        "14ml of metal",
+        "2ml of glass",
+        "35l of metal",
+        "44ml of rubber"
+      ],
+      "normalized_values": {
+        "14ml of metal": "14",
+        "2ml of glass": "2",
+        "35l of metal": "35000",
+        "44ml of rubber": "44"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 87,
+      "items": [
+        "10mg of glass",
+        "17mg of aluminum",
+        "3g of brass",
+        "49mg of glass",
+        "50kg of brass"
+      ],
+      "normalized_values": {
+        "10mg of glass": "10",
+        "17mg of aluminum": "17",
+        "3g of brass": "3000",
+        "49mg of glass": "49",
+        "50kg of brass": "50000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 88,
+      "items": [
+        "19l of brass",
+        "23ml of glass",
+        "34ml of glass"
+      ],
+      "normalized_values": {
+        "19l of brass": "19000",
+        "23ml of glass": "23",
+        "34ml of glass": "34"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 89,
+      "items": [
+        "11 avocados",
+        "14 prunes",
+        "36 prunes",
+        "49 tomatoes"
+      ],
+      "normalized_values": {
+        "11 avocados": "11",
+        "14 prunes": "14",
+        "36 prunes": "36",
+        "49 tomatoes": "49"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 90,
+      "items": [
+        "21mm of metal",
+        "30mm of glass",
+        "36m of aluminum"
+      ],
+      "normalized_values": {
+        "21mm of metal": "21",
+        "30mm of glass": "30",
+        "36m of aluminum": "36000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 91,
+      "items": [
+        "14cm of rubber",
+        "26mm of metal",
+        "35mm of aluminum",
+        "39cm of metal"
+      ],
+      "normalized_values": {
+        "14cm of rubber": "140",
+        "26mm of metal": "26",
+        "35mm of aluminum": "35",
+        "39cm of metal": "390"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 92,
+      "items": [
+        "19m of rubber",
+        "25cm of glass",
+        "26cm of brass",
+        "46cm of rubber",
+        "47mm of aluminum"
+      ],
+      "normalized_values": {
+        "19m of rubber": "19000",
+        "25cm of glass": "250",
+        "26cm of brass": "260",
+        "46cm of rubber": "460",
+        "47mm of aluminum": "47"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 93,
+      "items": [
+        "14 pumpkins",
+        "2 prunes",
+        "25 tomatoes",
+        "29 blueberries",
+        "39 avocados"
+      ],
+      "normalized_values": {
+        "14 pumpkins": "14",
+        "2 prunes": "2",
+        "25 tomatoes": "25",
+        "29 blueberries": "29",
+        "39 avocados": "39"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 94,
+      "items": [
+        "23cm of glass",
+        "24mm of brass",
+        "32m of metal",
+        "3mm of brass"
+      ],
+      "normalized_values": {
+        "23cm of glass": "230",
+        "24mm of brass": "24",
+        "32m of metal": "32000",
+        "3mm of brass": "3"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 95,
+      "items": [
+        "12l of glass",
+        "14l of metal",
+        "35l of brass",
+        "38ml of metal",
+        "47ml of aluminum"
+      ],
+      "normalized_values": {
+        "12l of glass": "12000",
+        "14l of metal": "14000",
+        "35l of brass": "35000",
+        "38ml of metal": "38",
+        "47ml of aluminum": "47"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 96,
+      "items": [
+        "11mm of brass",
+        "18mm of brass",
+        "26m of glass",
+        "2m of glass",
+        "9m of aluminum"
+      ],
+      "normalized_values": {
+        "11mm of brass": "11",
+        "18mm of brass": "18",
+        "26m of glass": "26000",
+        "2m of glass": "2000",
+        "9m of aluminum": "9000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 97,
+      "items": [
+        "25 squashes",
+        "38 squashes",
+        "7 prunes"
+      ],
+      "normalized_values": {
+        "25 squashes": "25",
+        "38 squashes": "38",
+        "7 prunes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 98,
+      "items": [
+        "19 avocados",
+        "25 peppers",
+        "30 blueberries",
+        "39 cabbages"
+      ],
+      "normalized_values": {
+        "19 avocados": "19",
+        "25 peppers": "25",
+        "30 blueberries": "30",
+        "39 cabbages": "39"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 99,
+      "items": [
+        "16 avocados",
+        "19 tomatoes",
+        "48 squashes"
+      ],
+      "normalized_values": {
+        "16 avocados": "16",
+        "19 tomatoes": "19",
+        "48 squashes": "48"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 100,
+      "items": [
+        "11l of aluminum",
+        "19ml of aluminum",
+        "29l of metal",
+        "48l of rubber",
+        "4l of glass"
+      ],
+      "normalized_values": {
+        "11l of aluminum": "11000",
+        "19ml of aluminum": "19",
+        "29l of metal": "29000",
+        "48l of rubber": "48000",
+        "4l of glass": "4000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 101,
+      "items": [
+        "18ml of aluminum",
+        "31ml of aluminum",
+        "3ml of brass",
+        "45l of metal",
+        "6l of aluminum"
+      ],
+      "normalized_values": {
+        "18ml of aluminum": "18",
+        "31ml of aluminum": "31",
+        "3ml of brass": "3",
+        "45l of metal": "45000",
+        "6l of aluminum": "6000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 102,
+      "items": [
+        "23l of rubber",
+        "30ml of aluminum",
+        "5l of rubber"
+      ],
+      "normalized_values": {
+        "23l of rubber": "23000",
+        "30ml of aluminum": "30",
+        "5l of rubber": "5000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 103,
+      "items": [
+        "25 squashes",
+        "36 peas",
+        "44 prunes",
+        "45 peas"
+      ],
+      "normalized_values": {
+        "25 squashes": "25",
+        "36 peas": "36",
+        "44 prunes": "44",
+        "45 peas": "45"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 104,
+      "items": [
+        "19l of glass",
+        "22ml of glass",
+        "40ml of metal",
+        "43ml of aluminum",
+        "48l of aluminum"
+      ],
+      "normalized_values": {
+        "19l of glass": "19000",
+        "22ml of glass": "22",
+        "40ml of metal": "40",
+        "43ml of aluminum": "43",
+        "48l of aluminum": "48000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 105,
+      "items": [
+        "21 peppers",
+        "25 peas",
+        "29 peas",
+        "33 avocados",
+        "38 tomatoes"
+      ],
+      "normalized_values": {
+        "21 peppers": "21",
+        "25 peas": "25",
+        "29 peas": "29",
+        "33 avocados": "33",
+        "38 tomatoes": "38"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 106,
+      "items": [
+        "10kg of glass",
+        "16g of aluminum",
+        "25mg of brass",
+        "34kg of metal",
+        "8g of brass"
+      ],
+      "normalized_values": {
+        "10kg of glass": "10000000",
+        "16g of aluminum": "16000",
+        "25mg of brass": "25",
+        "34kg of metal": "34000000",
+        "8g of brass": "8000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 107,
+      "items": [
+        "12ml of aluminum",
+        "17l of aluminum",
+        "23ml of aluminum"
+      ],
+      "normalized_values": {
+        "12ml of aluminum": "12",
+        "17l of aluminum": "17000",
+        "23ml of aluminum": "23"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 108,
+      "items": [
+        "11ml of glass",
+        "31l of metal",
+        "32ml of metal",
+        "40l of brass"
+      ],
+      "normalized_values": {
+        "11ml of glass": "11",
+        "31l of metal": "31000",
+        "32ml of metal": "32",
+        "40l of brass": "40000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 109,
+      "items": [
+        "13kg of glass",
+        "17mg of metal",
+        "26mg of brass",
+        "3kg of rubber",
+        "6mg of aluminum"
+      ],
+      "normalized_values": {
+        "13kg of glass": "13000000",
+        "17mg of metal": "17",
+        "26mg of brass": "26",
+        "3kg of rubber": "3000000",
+        "6mg of aluminum": "6"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 110,
+      "items": [
+        "15 avocados",
+        "49 tomatoes",
+        "9 tomatoes"
+      ],
+      "normalized_values": {
+        "15 avocados": "15",
+        "49 tomatoes": "49",
+        "9 tomatoes": "9"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 111,
+      "items": [
+        "25m of glass",
+        "28mm of rubber",
+        "33mm of brass",
+        "45m of metal",
+        "48m of rubber"
+      ],
+      "normalized_values": {
+        "25m of glass": "25000",
+        "28mm of rubber": "28",
+        "33mm of brass": "33",
+        "45m of metal": "45000",
+        "48m of rubber": "48000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 112,
+      "items": [
+        "1cm of aluminum",
+        "21cm of glass",
+        "2mm of brass",
+        "4m of glass",
+        "7m of brass"
+      ],
+      "normalized_values": {
+        "1cm of aluminum": "10",
+        "21cm of glass": "210",
+        "2mm of brass": "2",
+        "4m of glass": "4000",
+        "7m of brass": "7000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 113,
+      "items": [
+        "17kg of brass",
+        "41mg of rubber",
+        "42g of rubber",
+        "4mg of glass"
+      ],
+      "normalized_values": {
+        "17kg of brass": "17000000",
+        "41mg of rubber": "41",
+        "42g of rubber": "42000",
+        "4mg of glass": "4"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 114,
+      "items": [
+        "13cm of brass",
+        "20m of glass",
+        "23mm of brass",
+        "27cm of brass",
+        "49cm of glass"
+      ],
+      "normalized_values": {
+        "13cm of brass": "130",
+        "20m of glass": "20000",
+        "23mm of brass": "23",
+        "27cm of brass": "270",
+        "49cm of glass": "490"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 115,
+      "items": [
+        "12mg of brass",
+        "16mg of brass",
+        "32g of rubber",
+        "39g of brass",
+        "49mg of metal"
+      ],
+      "normalized_values": {
+        "12mg of brass": "12",
+        "16mg of brass": "16",
+        "32g of rubber": "32000",
+        "39g of brass": "39000",
+        "49mg of metal": "49"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 116,
+      "items": [
+        "15 avocados",
+        "25 tomatoes",
+        "30 cabbages",
+        "45 squashes"
+      ],
+      "normalized_values": {
+        "15 avocados": "15",
+        "25 tomatoes": "25",
+        "30 cabbages": "30",
+        "45 squashes": "45"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 117,
+      "items": [
+        "10l of metal",
+        "16ml of metal",
+        "33ml of aluminum",
+        "35ml of metal"
+      ],
+      "normalized_values": {
+        "10l of metal": "10000",
+        "16ml of metal": "16",
+        "33ml of aluminum": "33",
+        "35ml of metal": "35"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 118,
+      "items": [
+        "13m of rubber",
+        "14mm of rubber",
+        "47mm of metal",
+        "7m of metal"
+      ],
+      "normalized_values": {
+        "13m of rubber": "13000",
+        "14mm of rubber": "14",
+        "47mm of metal": "47",
+        "7m of metal": "7000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 119,
+      "items": [
+        "14mg of aluminum",
+        "44mg of aluminum",
+        "49g of glass",
+        "5g of rubber",
+        "6kg of aluminum"
+      ],
+      "normalized_values": {
+        "14mg of aluminum": "14",
+        "44mg of aluminum": "44",
+        "49g of glass": "49000",
+        "5g of rubber": "5000",
+        "6kg of aluminum": "6000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 120,
+      "items": [
+        "14cm of glass",
+        "22m of metal",
+        "32cm of aluminum",
+        "36cm of aluminum"
+      ],
+      "normalized_values": {
+        "14cm of glass": "140",
+        "22m of metal": "22000",
+        "32cm of aluminum": "320",
+        "36cm of aluminum": "360"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 121,
+      "items": [
+        "30kg of brass",
+        "39kg of aluminum",
+        "44kg of glass",
+        "6g of rubber"
+      ],
+      "normalized_values": {
+        "30kg of brass": "30000000",
+        "39kg of aluminum": "39000000",
+        "44kg of glass": "44000000",
+        "6g of rubber": "6000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 122,
+      "items": [
+        "1mg of glass",
+        "24mg of rubber",
+        "31g of rubber",
+        "35kg of aluminum",
+        "43g of glass"
+      ],
+      "normalized_values": {
+        "1mg of glass": "1",
+        "24mg of rubber": "24",
+        "31g of rubber": "31000",
+        "35kg of aluminum": "35000000",
+        "43g of glass": "43000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 123,
+      "items": [
+        "16mg of brass",
+        "18kg of aluminum",
+        "3g of metal",
+        "40g of brass",
+        "46g of rubber"
+      ],
+      "normalized_values": {
+        "16mg of brass": "16",
+        "18kg of aluminum": "18000000",
+        "3g of metal": "3000",
+        "40g of brass": "40000",
+        "46g of rubber": "46000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 124,
+      "items": [
+        "15ml of metal",
+        "17ml of metal",
+        "4ml of glass",
+        "7ml of metal"
+      ],
+      "normalized_values": {
+        "15ml of metal": "15",
+        "17ml of metal": "17",
+        "4ml of glass": "4",
+        "7ml of metal": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 125,
+      "items": [
+        "26mg of brass",
+        "34kg of brass",
+        "43kg of brass"
+      ],
+      "normalized_values": {
+        "26mg of brass": "26",
+        "34kg of brass": "34000000",
+        "43kg of brass": "43000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 126,
+      "items": [
+        "16cm of metal",
+        "22cm of metal",
+        "25cm of aluminum",
+        "32cm of brass",
+        "34cm of glass"
+      ],
+      "normalized_values": {
+        "16cm of metal": "160",
+        "22cm of metal": "220",
+        "25cm of aluminum": "250",
+        "32cm of brass": "320",
+        "34cm of glass": "340"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 127,
+      "items": [
+        "12m of metal",
+        "14mm of metal",
+        "26mm of rubber",
+        "28cm of metal"
+      ],
+      "normalized_values": {
+        "12m of metal": "12000",
+        "14mm of metal": "14",
+        "26mm of rubber": "26",
+        "28cm of metal": "280"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 128,
+      "items": [
+        "11cm of aluminum",
+        "17cm of glass",
+        "42m of metal"
+      ],
+      "normalized_values": {
+        "11cm of aluminum": "110",
+        "17cm of glass": "170",
+        "42m of metal": "42000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 129,
+      "items": [
+        "16 eggplants",
+        "26 squashes",
+        "35 eggplants",
+        "8 eggplants"
+      ],
+      "normalized_values": {
+        "16 eggplants": "16",
+        "26 squashes": "26",
+        "35 eggplants": "35",
+        "8 eggplants": "8"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 130,
+      "items": [
+        "17mg of glass",
+        "21mg of aluminum",
+        "38g of metal",
+        "3mg of aluminum",
+        "6mg of rubber"
+      ],
+      "normalized_values": {
+        "17mg of glass": "17",
+        "21mg of aluminum": "21",
+        "38g of metal": "38000",
+        "3mg of aluminum": "3",
+        "6mg of rubber": "6"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 131,
+      "items": [
+        "14ml of aluminum",
+        "25ml of metal",
+        "26l of metal",
+        "32l of aluminum"
+      ],
+      "normalized_values": {
+        "14ml of aluminum": "14",
+        "25ml of metal": "25",
+        "26l of metal": "26000",
+        "32l of aluminum": "32000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 132,
+      "items": [
+        "20kg of aluminum",
+        "23mg of metal",
+        "34kg of aluminum",
+        "44g of brass",
+        "49mg of glass"
+      ],
+      "normalized_values": {
+        "20kg of aluminum": "20000000",
+        "23mg of metal": "23",
+        "34kg of aluminum": "34000000",
+        "44g of brass": "44000",
+        "49mg of glass": "49"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 133,
+      "items": [
+        "12 eggplants",
+        "30 prunes",
+        "43 avocados"
+      ],
+      "normalized_values": {
+        "12 eggplants": "12",
+        "30 prunes": "30",
+        "43 avocados": "43"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 134,
+      "items": [
+        "11 avocados",
+        "16 peppers",
+        "32 eggplants",
+        "39 tomatoes",
+        "5 blueberries"
+      ],
+      "normalized_values": {
+        "11 avocados": "11",
+        "16 peppers": "16",
+        "32 eggplants": "32",
+        "39 tomatoes": "39",
+        "5 blueberries": "5"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 135,
+      "items": [
+        "26 pumpkins",
+        "29 peas",
+        "30 cabbages"
+      ],
+      "normalized_values": {
+        "26 pumpkins": "26",
+        "29 peas": "29",
+        "30 cabbages": "30"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 136,
+      "items": [
+        "1g of rubber",
+        "20g of metal",
+        "41g of brass",
+        "50mg of brass",
+        "6kg of metal"
+      ],
+      "normalized_values": {
+        "1g of rubber": "1000",
+        "20g of metal": "20000",
+        "41g of brass": "41000",
+        "50mg of brass": "50",
+        "6kg of metal": "6000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 137,
+      "items": [
+        "24 peppers",
+        "5 pumpkins",
+        "7 eggplants"
+      ],
+      "normalized_values": {
+        "24 peppers": "24",
+        "5 pumpkins": "5",
+        "7 eggplants": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 138,
+      "items": [
+        "12kg of aluminum",
+        "26mg of brass",
+        "39g of brass",
+        "8kg of rubber"
+      ],
+      "normalized_values": {
+        "12kg of aluminum": "12000000",
+        "26mg of brass": "26",
+        "39g of brass": "39000",
+        "8kg of rubber": "8000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 139,
+      "items": [
+        "31 peppers",
+        "37 eggplants",
+        "5 avocados",
+        "7 tomatoes"
+      ],
+      "normalized_values": {
+        "31 peppers": "31",
+        "37 eggplants": "37",
+        "5 avocados": "5",
+        "7 tomatoes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 140,
+      "items": [
+        "35ml of glass",
+        "39l of glass",
+        "50ml of glass"
+      ],
+      "normalized_values": {
+        "35ml of glass": "35",
+        "39l of glass": "39000",
+        "50ml of glass": "50"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 141,
+      "items": [
+        "13kg of glass",
+        "24mg of metal",
+        "8g of brass"
+      ],
+      "normalized_values": {
+        "13kg of glass": "13000000",
+        "24mg of metal": "24",
+        "8g of brass": "8000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 142,
+      "items": [
+        "34 squashes",
+        "43 prunes",
+        "48 peas",
+        "8 cabbages",
+        "9 eggplants"
+      ],
+      "normalized_values": {
+        "34 squashes": "34",
+        "43 prunes": "43",
+        "48 peas": "48",
+        "8 cabbages": "8",
+        "9 eggplants": "9"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 143,
+      "items": [
+        "14mm of aluminum",
+        "16m of glass",
+        "17mm of glass",
+        "39cm of rubber",
+        "5mm of aluminum"
+      ],
+      "normalized_values": {
+        "14mm of aluminum": "14",
+        "16m of glass": "16000",
+        "17mm of glass": "17",
+        "39cm of rubber": "390",
+        "5mm of aluminum": "5"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 144,
+      "items": [
+        "1l of aluminum",
+        "23ml of aluminum",
+        "7ml of brass"
+      ],
+      "normalized_values": {
+        "1l of aluminum": "1000",
+        "23ml of aluminum": "23",
+        "7ml of brass": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 145,
+      "items": [
+        "10kg of metal",
+        "20g of metal",
+        "23g of metal"
+      ],
+      "normalized_values": {
+        "10kg of metal": "10000000",
+        "20g of metal": "20000",
+        "23g of metal": "23000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 146,
+      "items": [
+        "12ml of metal",
+        "17ml of brass",
+        "24ml of rubber",
+        "47l of aluminum"
+      ],
+      "normalized_values": {
+        "12ml of metal": "12",
+        "17ml of brass": "17",
+        "24ml of rubber": "24",
+        "47l of aluminum": "47000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 147,
+      "items": [
+        "28 peppers",
+        "3 tomatoes",
+        "41 peas"
+      ],
+      "normalized_values": {
+        "28 peppers": "28",
+        "3 tomatoes": "3",
+        "41 peas": "41"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 148,
+      "items": [
+        "14kg of metal",
+        "16g of rubber",
+        "17g of rubber",
+        "19mg of brass",
+        "25g of rubber"
+      ],
+      "normalized_values": {
+        "14kg of metal": "14000000",
+        "16g of rubber": "16000",
+        "17g of rubber": "17000",
+        "19mg of brass": "19",
+        "25g of rubber": "25000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 149,
+      "items": [
+        "1m of aluminum",
+        "21cm of metal",
+        "42cm of glass"
+      ],
+      "normalized_values": {
+        "1m of aluminum": "1000",
+        "21cm of metal": "210",
+        "42cm of glass": "420"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 150,
+      "items": [
+        "12g of glass",
+        "22g of rubber",
+        "23g of rubber",
+        "41kg of metal"
+      ],
+      "normalized_values": {
+        "12g of glass": "12000",
+        "22g of rubber": "22000",
+        "23g of rubber": "23000",
+        "41kg of metal": "41000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 151,
+      "items": [
+        "14ml of metal",
+        "19l of glass",
+        "30l of glass"
+      ],
+      "normalized_values": {
+        "14ml of metal": "14",
+        "19l of glass": "19000",
+        "30l of glass": "30000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 152,
+      "items": [
+        "13 tomatoes",
+        "33 prunes",
+        "41 peppers",
+        "5 peas",
+        "7 tomatoes"
+      ],
+      "normalized_values": {
+        "13 tomatoes": "13",
+        "33 prunes": "33",
+        "41 peppers": "41",
+        "5 peas": "5",
+        "7 tomatoes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 153,
+      "items": [
+        "11ml of aluminum",
+        "22ml of rubber",
+        "24ml of brass",
+        "37l of metal"
+      ],
+      "normalized_values": {
+        "11ml of aluminum": "11",
+        "22ml of rubber": "22",
+        "24ml of brass": "24",
+        "37l of metal": "37000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 154,
+      "items": [
+        "11ml of glass",
+        "1l of rubber",
+        "21l of metal"
+      ],
+      "normalized_values": {
+        "11ml of glass": "11",
+        "1l of rubber": "1000",
+        "21l of metal": "21000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 155,
+      "items": [
+        "23l of metal",
+        "42ml of brass",
+        "47ml of metal",
+        "48l of rubber"
+      ],
+      "normalized_values": {
+        "23l of metal": "23000",
+        "42ml of brass": "42",
+        "47ml of metal": "47",
+        "48l of rubber": "48000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 156,
+      "items": [
+        "1kg of rubber",
+        "20mg of glass",
+        "38kg of rubber",
+        "4mg of metal",
+        "50mg of brass"
+      ],
+      "normalized_values": {
+        "1kg of rubber": "1000000",
+        "20mg of glass": "20",
+        "38kg of rubber": "38000000",
+        "4mg of metal": "4",
+        "50mg of brass": "50"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 157,
+      "items": [
+        "15 blueberries",
+        "4 avocados",
+        "50 eggplants",
+        "8 eggplants"
+      ],
+      "normalized_values": {
+        "15 blueberries": "15",
+        "4 avocados": "4",
+        "50 eggplants": "50",
+        "8 eggplants": "8"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 158,
+      "items": [
+        "12 cabbages",
+        "49 peppers",
+        "5 peas"
+      ],
+      "normalized_values": {
+        "12 cabbages": "12",
+        "49 peppers": "49",
+        "5 peas": "5"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 159,
+      "items": [
+        "27mg of metal",
+        "2g of glass",
+        "36g of aluminum",
+        "50mg of aluminum"
+      ],
+      "normalized_values": {
+        "27mg of metal": "27",
+        "2g of glass": "2000",
+        "36g of aluminum": "36000",
+        "50mg of aluminum": "50"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 160,
+      "items": [
+        "1 tomato",
+        "24 cabbages",
+        "6 pumpkins",
+        "7 peas"
+      ],
+      "normalized_values": {
+        "1 tomato": "1",
+        "24 cabbages": "24",
+        "6 pumpkins": "6",
+        "7 peas": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 161,
+      "items": [
+        "14l of brass",
+        "22ml of glass",
+        "5ml of glass",
+        "7ml of rubber"
+      ],
+      "normalized_values": {
+        "14l of brass": "14000",
+        "22ml of glass": "22",
+        "5ml of glass": "5",
+        "7ml of rubber": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 162,
+      "items": [
+        "11mm of rubber",
+        "22mm of glass",
+        "7mm of glass"
+      ],
+      "normalized_values": {
+        "11mm of rubber": "11",
+        "22mm of glass": "22",
+        "7mm of glass": "7"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 163,
+      "items": [
+        "10cm of glass",
+        "16m of brass",
+        "21mm of glass",
+        "24m of rubber",
+        "47m of aluminum"
+      ],
+      "normalized_values": {
+        "10cm of glass": "100",
+        "16m of brass": "16000",
+        "21mm of glass": "21",
+        "24m of rubber": "24000",
+        "47m of aluminum": "47000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 164,
+      "items": [
+        "13cm of glass",
+        "17mm of glass",
+        "32mm of metal",
+        "36cm of glass",
+        "8m of glass"
+      ],
+      "normalized_values": {
+        "13cm of glass": "130",
+        "17mm of glass": "17",
+        "32mm of metal": "32",
+        "36cm of glass": "360",
+        "8m of glass": "8000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 165,
+      "items": [
+        "20g of metal",
+        "24g of rubber",
+        "26mg of glass",
+        "42kg of brass",
+        "50g of rubber"
+      ],
+      "normalized_values": {
+        "20g of metal": "20000",
+        "24g of rubber": "24000",
+        "26mg of glass": "26",
+        "42kg of brass": "42000000",
+        "50g of rubber": "50000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 166,
+      "items": [
+        "11mg of rubber",
+        "29kg of rubber",
+        "6g of aluminum"
+      ],
+      "normalized_values": {
+        "11mg of rubber": "11",
+        "29kg of rubber": "29000000",
+        "6g of aluminum": "6000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 167,
+      "items": [
+        "1cm of aluminum",
+        "28mm of aluminum",
+        "32mm of rubber",
+        "33cm of aluminum",
+        "42cm of rubber"
+      ],
+      "normalized_values": {
+        "1cm of aluminum": "10",
+        "28mm of aluminum": "28",
+        "32mm of rubber": "32",
+        "33cm of aluminum": "330",
+        "42cm of rubber": "420"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 168,
+      "items": [
+        "16m of glass",
+        "33m of brass",
+        "39cm of metal"
+      ],
+      "normalized_values": {
+        "16m of glass": "16000",
+        "33m of brass": "33000",
+        "39cm of metal": "390"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 169,
+      "items": [
+        "16 blueberries",
+        "25 eggplants",
+        "27 tomatoes",
+        "37 avocados"
+      ],
+      "normalized_values": {
+        "16 blueberries": "16",
+        "25 eggplants": "25",
+        "27 tomatoes": "27",
+        "37 avocados": "37"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 170,
+      "items": [
+        "12mm of rubber",
+        "37m of aluminum",
+        "46mm of brass",
+        "49cm of aluminum",
+        "4mm of brass"
+      ],
+      "normalized_values": {
+        "12mm of rubber": "12",
+        "37m of aluminum": "37000",
+        "46mm of brass": "46",
+        "49cm of aluminum": "490",
+        "4mm of brass": "4"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 171,
+      "items": [
+        "14l of metal",
+        "40ml of glass",
+        "42l of metal",
+        "47l of aluminum"
+      ],
+      "normalized_values": {
+        "14l of metal": "14000",
+        "40ml of glass": "40",
+        "42l of metal": "42000",
+        "47l of aluminum": "47000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 172,
+      "items": [
+        "25ml of rubber",
+        "35l of metal",
+        "46ml of aluminum"
+      ],
+      "normalized_values": {
+        "25ml of rubber": "25",
+        "35l of metal": "35000",
+        "46ml of aluminum": "46"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 173,
+      "items": [
+        "10mg of metal",
+        "17g of glass",
+        "29kg of rubber",
+        "39g of metal",
+        "47mg of brass"
+      ],
+      "normalized_values": {
+        "10mg of metal": "10",
+        "17g of glass": "17000",
+        "29kg of rubber": "29000000",
+        "39g of metal": "39000",
+        "47mg of brass": "47"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 174,
+      "items": [
+        "27l of rubber",
+        "2l of glass",
+        "36l of glass",
+        "40ml of metal",
+        "45l of brass"
+      ],
+      "normalized_values": {
+        "27l of rubber": "27000",
+        "2l of glass": "2000",
+        "36l of glass": "36000",
+        "40ml of metal": "40",
+        "45l of brass": "45000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 175,
+      "items": [
+        "21l of brass",
+        "38ml of aluminum",
+        "48l of rubber",
+        "8ml of rubber"
+      ],
+      "normalized_values": {
+        "21l of brass": "21000",
+        "38ml of aluminum": "38",
+        "48l of rubber": "48000",
+        "8ml of rubber": "8"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 176,
+      "items": [
+        "36cm of aluminum",
+        "40cm of brass",
+        "4m of glass"
+      ],
+      "normalized_values": {
+        "36cm of aluminum": "360",
+        "40cm of brass": "400",
+        "4m of glass": "4000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 177,
+      "items": [
+        "16ml of metal",
+        "41l of metal",
+        "45ml of metal",
+        "50ml of rubber"
+      ],
+      "normalized_values": {
+        "16ml of metal": "16",
+        "41l of metal": "41000",
+        "45ml of metal": "45",
+        "50ml of rubber": "50"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 178,
+      "items": [
+        "12 avocados",
+        "16 cabbages",
+        "37 peppers",
+        "50 blueberries"
+      ],
+      "normalized_values": {
+        "12 avocados": "12",
+        "16 cabbages": "16",
+        "37 peppers": "37",
+        "50 blueberries": "50"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 179,
+      "items": [
+        "17cm of rubber",
+        "21mm of glass",
+        "22cm of brass",
+        "42mm of metal",
+        "50m of metal"
+      ],
+      "normalized_values": {
+        "17cm of rubber": "170",
+        "21mm of glass": "21",
+        "22cm of brass": "220",
+        "42mm of metal": "42",
+        "50m of metal": "50000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 180,
+      "items": [
+        "20mg of rubber",
+        "22g of rubber",
+        "34mg of metal"
+      ],
+      "normalized_values": {
+        "20mg of rubber": "20",
+        "22g of rubber": "22000",
+        "34mg of metal": "34"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 181,
+      "items": [
+        "11kg of aluminum",
+        "16kg of glass",
+        "23mg of aluminum",
+        "32g of aluminum"
+      ],
+      "normalized_values": {
+        "11kg of aluminum": "11000000",
+        "16kg of glass": "16000000",
+        "23mg of aluminum": "23",
+        "32g of aluminum": "32000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 182,
+      "items": [
+        "1 eggplant",
+        "24 squashes",
+        "4 prunes",
+        "44 tomatoes",
+        "48 peas"
+      ],
+      "normalized_values": {
+        "1 eggplant": "1",
+        "24 squashes": "24",
+        "4 prunes": "4",
+        "44 tomatoes": "44",
+        "48 peas": "48"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 183,
+      "items": [
+        "20 pumpkins",
+        "26 peppers",
+        "29 prunes",
+        "7 squashes"
+      ],
+      "normalized_values": {
+        "20 pumpkins": "20",
+        "26 peppers": "26",
+        "29 prunes": "29",
+        "7 squashes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 184,
+      "items": [
+        "12cm of rubber",
+        "39mm of glass",
+        "46mm of aluminum"
+      ],
+      "normalized_values": {
+        "12cm of rubber": "120",
+        "39mm of glass": "39",
+        "46mm of aluminum": "46"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 185,
+      "items": [
+        "13mm of rubber",
+        "42cm of metal",
+        "43m of brass",
+        "45cm of aluminum",
+        "4m of rubber"
+      ],
+      "normalized_values": {
+        "13mm of rubber": "13",
+        "42cm of metal": "420",
+        "43m of brass": "43000",
+        "45cm of aluminum": "450",
+        "4m of rubber": "4000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 186,
+      "items": [
+        "14ml of metal",
+        "2ml of glass",
+        "35l of metal",
+        "44ml of rubber"
+      ],
+      "normalized_values": {
+        "14ml of metal": "14",
+        "2ml of glass": "2",
+        "35l of metal": "35000",
+        "44ml of rubber": "44"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 187,
+      "items": [
+        "10mg of glass",
+        "17mg of aluminum",
+        "3g of brass",
+        "49mg of glass",
+        "50kg of brass"
+      ],
+      "normalized_values": {
+        "10mg of glass": "10",
+        "17mg of aluminum": "17",
+        "3g of brass": "3000",
+        "49mg of glass": "49",
+        "50kg of brass": "50000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 188,
+      "items": [
+        "19l of brass",
+        "23ml of glass",
+        "34ml of glass"
+      ],
+      "normalized_values": {
+        "19l of brass": "19000",
+        "23ml of glass": "23",
+        "34ml of glass": "34"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 189,
+      "items": [
+        "11 avocados",
+        "14 prunes",
+        "36 prunes",
+        "49 tomatoes"
+      ],
+      "normalized_values": {
+        "11 avocados": "11",
+        "14 prunes": "14",
+        "36 prunes": "36",
+        "49 tomatoes": "49"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 190,
+      "items": [
+        "21mm of metal",
+        "30mm of glass",
+        "36m of aluminum"
+      ],
+      "normalized_values": {
+        "21mm of metal": "21",
+        "30mm of glass": "30",
+        "36m of aluminum": "36000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 191,
+      "items": [
+        "14cm of rubber",
+        "26mm of metal",
+        "35mm of aluminum",
+        "39cm of metal"
+      ],
+      "normalized_values": {
+        "14cm of rubber": "140",
+        "26mm of metal": "26",
+        "35mm of aluminum": "35",
+        "39cm of metal": "390"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 192,
+      "items": [
+        "19m of rubber",
+        "25cm of glass",
+        "26cm of brass",
+        "46cm of rubber",
+        "47mm of aluminum"
+      ],
+      "normalized_values": {
+        "19m of rubber": "19000",
+        "25cm of glass": "250",
+        "26cm of brass": "260",
+        "46cm of rubber": "460",
+        "47mm of aluminum": "47"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 193,
+      "items": [
+        "14 pumpkins",
+        "2 prunes",
+        "25 tomatoes",
+        "29 blueberries",
+        "39 avocados"
+      ],
+      "normalized_values": {
+        "14 pumpkins": "14",
+        "2 prunes": "2",
+        "25 tomatoes": "25",
+        "29 blueberries": "29",
+        "39 avocados": "39"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 194,
+      "items": [
+        "23cm of glass",
+        "24mm of brass",
+        "32m of metal",
+        "3mm of brass"
+      ],
+      "normalized_values": {
+        "23cm of glass": "230",
+        "24mm of brass": "24",
+        "32m of metal": "32000",
+        "3mm of brass": "3"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 195,
+      "items": [
+        "12l of glass",
+        "14l of metal",
+        "35l of brass",
+        "38ml of metal",
+        "47ml of aluminum"
+      ],
+      "normalized_values": {
+        "12l of glass": "12000",
+        "14l of metal": "14000",
+        "35l of brass": "35000",
+        "38ml of metal": "38",
+        "47ml of aluminum": "47"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 196,
+      "items": [
+        "11mm of brass",
+        "18mm of brass",
+        "26m of glass",
+        "2m of glass",
+        "9m of aluminum"
+      ],
+      "normalized_values": {
+        "11mm of brass": "11",
+        "18mm of brass": "18",
+        "26m of glass": "26000",
+        "2m of glass": "2000",
+        "9m of aluminum": "9000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 197,
+      "items": [
+        "25 squashes",
+        "38 squashes",
+        "7 prunes"
+      ],
+      "normalized_values": {
+        "25 squashes": "25",
+        "38 squashes": "38",
+        "7 prunes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 198,
+      "items": [
+        "19 avocados",
+        "25 peppers",
+        "30 blueberries",
+        "39 cabbages"
+      ],
+      "normalized_values": {
+        "19 avocados": "19",
+        "25 peppers": "25",
+        "30 blueberries": "30",
+        "39 cabbages": "39"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 199,
+      "items": [
+        "16 avocados",
+        "19 tomatoes",
+        "48 squashes"
+      ],
+      "normalized_values": {
+        "16 avocados": "16",
+        "19 tomatoes": "19",
+        "48 squashes": "48"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 200,
+      "items": [
+        "11l of aluminum",
+        "19ml of aluminum",
+        "29l of metal",
+        "48l of rubber",
+        "4l of glass"
+      ],
+      "normalized_values": {
+        "11l of aluminum": "11000",
+        "19ml of aluminum": "19",
+        "29l of metal": "29000",
+        "48l of rubber": "48000",
+        "4l of glass": "4000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 201,
+      "items": [
+        "18ml of aluminum",
+        "31ml of aluminum",
+        "3ml of brass",
+        "45l of metal",
+        "6l of aluminum"
+      ],
+      "normalized_values": {
+        "18ml of aluminum": "18",
+        "31ml of aluminum": "31",
+        "3ml of brass": "3",
+        "45l of metal": "45000",
+        "6l of aluminum": "6000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 202,
+      "items": [
+        "23l of rubber",
+        "30ml of aluminum",
+        "5l of rubber"
+      ],
+      "normalized_values": {
+        "23l of rubber": "23000",
+        "30ml of aluminum": "30",
+        "5l of rubber": "5000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 203,
+      "items": [
+        "25 squashes",
+        "36 peas",
+        "44 prunes",
+        "45 peas"
+      ],
+      "normalized_values": {
+        "25 squashes": "25",
+        "36 peas": "36",
+        "44 prunes": "44",
+        "45 peas": "45"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 204,
+      "items": [
+        "19l of glass",
+        "22ml of glass",
+        "40ml of metal",
+        "43ml of aluminum",
+        "48l of aluminum"
+      ],
+      "normalized_values": {
+        "19l of glass": "19000",
+        "22ml of glass": "22",
+        "40ml of metal": "40",
+        "43ml of aluminum": "43",
+        "48l of aluminum": "48000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 205,
+      "items": [
+        "21 peppers",
+        "25 peas",
+        "29 peas",
+        "33 avocados",
+        "38 tomatoes"
+      ],
+      "normalized_values": {
+        "21 peppers": "21",
+        "25 peas": "25",
+        "29 peas": "29",
+        "33 avocados": "33",
+        "38 tomatoes": "38"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 206,
+      "items": [
+        "10kg of glass",
+        "16g of aluminum",
+        "25mg of brass",
+        "34kg of metal",
+        "8g of brass"
+      ],
+      "normalized_values": {
+        "10kg of glass": "10000000",
+        "16g of aluminum": "16000",
+        "25mg of brass": "25",
+        "34kg of metal": "34000000",
+        "8g of brass": "8000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 207,
+      "items": [
+        "12ml of aluminum",
+        "17l of aluminum",
+        "23ml of aluminum"
+      ],
+      "normalized_values": {
+        "12ml of aluminum": "12",
+        "17l of aluminum": "17000",
+        "23ml of aluminum": "23"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 208,
+      "items": [
+        "11ml of glass",
+        "31l of metal",
+        "32ml of metal",
+        "40l of brass"
+      ],
+      "normalized_values": {
+        "11ml of glass": "11",
+        "31l of metal": "31000",
+        "32ml of metal": "32",
+        "40l of brass": "40000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 209,
+      "items": [
+        "13kg of glass",
+        "17mg of metal",
+        "26mg of brass",
+        "3kg of rubber",
+        "6mg of aluminum"
+      ],
+      "normalized_values": {
+        "13kg of glass": "13000000",
+        "17mg of metal": "17",
+        "26mg of brass": "26",
+        "3kg of rubber": "3000000",
+        "6mg of aluminum": "6"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 210,
+      "items": [
+        "15 avocados",
+        "49 tomatoes",
+        "9 tomatoes"
+      ],
+      "normalized_values": {
+        "15 avocados": "15",
+        "49 tomatoes": "49",
+        "9 tomatoes": "9"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 211,
+      "items": [
+        "25m of glass",
+        "28mm of rubber",
+        "33mm of brass",
+        "45m of metal",
+        "48m of rubber"
+      ],
+      "normalized_values": {
+        "25m of glass": "25000",
+        "28mm of rubber": "28",
+        "33mm of brass": "33",
+        "45m of metal": "45000",
+        "48m of rubber": "48000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 212,
+      "items": [
+        "1cm of aluminum",
+        "21cm of glass",
+        "2mm of brass",
+        "4m of glass",
+        "7m of brass"
+      ],
+      "normalized_values": {
+        "1cm of aluminum": "10",
+        "21cm of glass": "210",
+        "2mm of brass": "2",
+        "4m of glass": "4000",
+        "7m of brass": "7000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 213,
+      "items": [
+        "17kg of brass",
+        "41mg of rubber",
+        "42g of rubber",
+        "4mg of glass"
+      ],
+      "normalized_values": {
+        "17kg of brass": "17000000",
+        "41mg of rubber": "41",
+        "42g of rubber": "42000",
+        "4mg of glass": "4"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 214,
+      "items": [
+        "13cm of brass",
+        "20m of glass",
+        "23mm of brass",
+        "27cm of brass",
+        "49cm of glass"
+      ],
+      "normalized_values": {
+        "13cm of brass": "130",
+        "20m of glass": "20000",
+        "23mm of brass": "23",
+        "27cm of brass": "270",
+        "49cm of glass": "490"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 215,
+      "items": [
+        "12mg of brass",
+        "16mg of brass",
+        "32g of rubber",
+        "39g of brass",
+        "49mg of metal"
+      ],
+      "normalized_values": {
+        "12mg of brass": "12",
+        "16mg of brass": "16",
+        "32g of rubber": "32000",
+        "39g of brass": "39000",
+        "49mg of metal": "49"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 216,
+      "items": [
+        "15 avocados",
+        "25 tomatoes",
+        "30 cabbages",
+        "45 squashes"
+      ],
+      "normalized_values": {
+        "15 avocados": "15",
+        "25 tomatoes": "25",
+        "30 cabbages": "30",
+        "45 squashes": "45"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 217,
+      "items": [
+        "10l of metal",
+        "16ml of metal",
+        "33ml of aluminum",
+        "35ml of metal"
+      ],
+      "normalized_values": {
+        "10l of metal": "10000",
+        "16ml of metal": "16",
+        "33ml of aluminum": "33",
+        "35ml of metal": "35"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 218,
+      "items": [
+        "13m of rubber",
+        "14mm of rubber",
+        "47mm of metal",
+        "7m of metal"
+      ],
+      "normalized_values": {
+        "13m of rubber": "13000",
+        "14mm of rubber": "14",
+        "47mm of metal": "47",
+        "7m of metal": "7000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 219,
+      "items": [
+        "14mg of aluminum",
+        "44mg of aluminum",
+        "49g of glass",
+        "5g of rubber",
+        "6kg of aluminum"
+      ],
+      "normalized_values": {
+        "14mg of aluminum": "14",
+        "44mg of aluminum": "44",
+        "49g of glass": "49000",
+        "5g of rubber": "5000",
+        "6kg of aluminum": "6000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 220,
+      "items": [
+        "14cm of glass",
+        "22m of metal",
+        "32cm of aluminum",
+        "36cm of aluminum"
+      ],
+      "normalized_values": {
+        "14cm of glass": "140",
+        "22m of metal": "22000",
+        "32cm of aluminum": "320",
+        "36cm of aluminum": "360"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 221,
+      "items": [
+        "30kg of brass",
+        "39kg of aluminum",
+        "44kg of glass",
+        "6g of rubber"
+      ],
+      "normalized_values": {
+        "30kg of brass": "30000000",
+        "39kg of aluminum": "39000000",
+        "44kg of glass": "44000000",
+        "6g of rubber": "6000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 222,
+      "items": [
+        "1mg of glass",
+        "24mg of rubber",
+        "31g of rubber",
+        "35kg of aluminum",
+        "43g of glass"
+      ],
+      "normalized_values": {
+        "1mg of glass": "1",
+        "24mg of rubber": "24",
+        "31g of rubber": "31000",
+        "35kg of aluminum": "35000000",
+        "43g of glass": "43000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 223,
+      "items": [
+        "16mg of brass",
+        "18kg of aluminum",
+        "3g of metal",
+        "40g of brass",
+        "46g of rubber"
+      ],
+      "normalized_values": {
+        "16mg of brass": "16",
+        "18kg of aluminum": "18000000",
+        "3g of metal": "3000",
+        "40g of brass": "40000",
+        "46g of rubber": "46000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 224,
+      "items": [
+        "15ml of metal",
+        "17ml of metal",
+        "4ml of glass",
+        "7ml of metal"
+      ],
+      "normalized_values": {
+        "15ml of metal": "15",
+        "17ml of metal": "17",
+        "4ml of glass": "4",
+        "7ml of metal": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 225,
+      "items": [
+        "26mg of brass",
+        "34kg of brass",
+        "43kg of brass"
+      ],
+      "normalized_values": {
+        "26mg of brass": "26",
+        "34kg of brass": "34000000",
+        "43kg of brass": "43000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 226,
+      "items": [
+        "16cm of metal",
+        "22cm of metal",
+        "25cm of aluminum",
+        "32cm of brass",
+        "34cm of glass"
+      ],
+      "normalized_values": {
+        "16cm of metal": "160",
+        "22cm of metal": "220",
+        "25cm of aluminum": "250",
+        "32cm of brass": "320",
+        "34cm of glass": "340"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 227,
+      "items": [
+        "12m of metal",
+        "14mm of metal",
+        "26mm of rubber",
+        "28cm of metal"
+      ],
+      "normalized_values": {
+        "12m of metal": "12000",
+        "14mm of metal": "14",
+        "26mm of rubber": "26",
+        "28cm of metal": "280"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 228,
+      "items": [
+        "11cm of aluminum",
+        "17cm of glass",
+        "42m of metal"
+      ],
+      "normalized_values": {
+        "11cm of aluminum": "110",
+        "17cm of glass": "170",
+        "42m of metal": "42000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 229,
+      "items": [
+        "16 eggplants",
+        "26 squashes",
+        "35 eggplants",
+        "8 eggplants"
+      ],
+      "normalized_values": {
+        "16 eggplants": "16",
+        "26 squashes": "26",
+        "35 eggplants": "35",
+        "8 eggplants": "8"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 230,
+      "items": [
+        "17mg of glass",
+        "21mg of aluminum",
+        "38g of metal",
+        "3mg of aluminum",
+        "6mg of rubber"
+      ],
+      "normalized_values": {
+        "17mg of glass": "17",
+        "21mg of aluminum": "21",
+        "38g of metal": "38000",
+        "3mg of aluminum": "3",
+        "6mg of rubber": "6"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 231,
+      "items": [
+        "14ml of aluminum",
+        "25ml of metal",
+        "26l of metal",
+        "32l of aluminum"
+      ],
+      "normalized_values": {
+        "14ml of aluminum": "14",
+        "25ml of metal": "25",
+        "26l of metal": "26000",
+        "32l of aluminum": "32000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 232,
+      "items": [
+        "20kg of aluminum",
+        "23mg of metal",
+        "34kg of aluminum",
+        "44g of brass",
+        "49mg of glass"
+      ],
+      "normalized_values": {
+        "20kg of aluminum": "20000000",
+        "23mg of metal": "23",
+        "34kg of aluminum": "34000000",
+        "44g of brass": "44000",
+        "49mg of glass": "49"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 233,
+      "items": [
+        "12 eggplants",
+        "30 prunes",
+        "43 avocados"
+      ],
+      "normalized_values": {
+        "12 eggplants": "12",
+        "30 prunes": "30",
+        "43 avocados": "43"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 234,
+      "items": [
+        "11 avocados",
+        "16 peppers",
+        "32 eggplants",
+        "39 tomatoes",
+        "5 blueberries"
+      ],
+      "normalized_values": {
+        "11 avocados": "11",
+        "16 peppers": "16",
+        "32 eggplants": "32",
+        "39 tomatoes": "39",
+        "5 blueberries": "5"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 235,
+      "items": [
+        "26 pumpkins",
+        "29 peas",
+        "30 cabbages"
+      ],
+      "normalized_values": {
+        "26 pumpkins": "26",
+        "29 peas": "29",
+        "30 cabbages": "30"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 236,
+      "items": [
+        "1g of rubber",
+        "20g of metal",
+        "41g of brass",
+        "50mg of brass",
+        "6kg of metal"
+      ],
+      "normalized_values": {
+        "1g of rubber": "1000",
+        "20g of metal": "20000",
+        "41g of brass": "41000",
+        "50mg of brass": "50",
+        "6kg of metal": "6000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 237,
+      "items": [
+        "24 peppers",
+        "5 pumpkins",
+        "7 eggplants"
+      ],
+      "normalized_values": {
+        "24 peppers": "24",
+        "5 pumpkins": "5",
+        "7 eggplants": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 238,
+      "items": [
+        "12kg of aluminum",
+        "26mg of brass",
+        "39g of brass",
+        "8kg of rubber"
+      ],
+      "normalized_values": {
+        "12kg of aluminum": "12000000",
+        "26mg of brass": "26",
+        "39g of brass": "39000",
+        "8kg of rubber": "8000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 239,
+      "items": [
+        "31 peppers",
+        "37 eggplants",
+        "5 avocados",
+        "7 tomatoes"
+      ],
+      "normalized_values": {
+        "31 peppers": "31",
+        "37 eggplants": "37",
+        "5 avocados": "5",
+        "7 tomatoes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 240,
+      "items": [
+        "35ml of glass",
+        "39l of glass",
+        "50ml of glass"
+      ],
+      "normalized_values": {
+        "35ml of glass": "35",
+        "39l of glass": "39000",
+        "50ml of glass": "50"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 241,
+      "items": [
+        "13kg of glass",
+        "24mg of metal",
+        "8g of brass"
+      ],
+      "normalized_values": {
+        "13kg of glass": "13000000",
+        "24mg of metal": "24",
+        "8g of brass": "8000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 242,
+      "items": [
+        "34 squashes",
+        "43 prunes",
+        "48 peas",
+        "8 cabbages",
+        "9 eggplants"
+      ],
+      "normalized_values": {
+        "34 squashes": "34",
+        "43 prunes": "43",
+        "48 peas": "48",
+        "8 cabbages": "8",
+        "9 eggplants": "9"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 243,
+      "items": [
+        "14mm of aluminum",
+        "16m of glass",
+        "17mm of glass",
+        "39cm of rubber",
+        "5mm of aluminum"
+      ],
+      "normalized_values": {
+        "14mm of aluminum": "14",
+        "16m of glass": "16000",
+        "17mm of glass": "17",
+        "39cm of rubber": "390",
+        "5mm of aluminum": "5"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 244,
+      "items": [
+        "1l of aluminum",
+        "23ml of aluminum",
+        "7ml of brass"
+      ],
+      "normalized_values": {
+        "1l of aluminum": "1000",
+        "23ml of aluminum": "23",
+        "7ml of brass": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 245,
+      "items": [
+        "10kg of metal",
+        "20g of metal",
+        "23g of metal"
+      ],
+      "normalized_values": {
+        "10kg of metal": "10000000",
+        "20g of metal": "20000",
+        "23g of metal": "23000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 246,
+      "items": [
+        "12ml of metal",
+        "17ml of brass",
+        "24ml of rubber",
+        "47l of aluminum"
+      ],
+      "normalized_values": {
+        "12ml of metal": "12",
+        "17ml of brass": "17",
+        "24ml of rubber": "24",
+        "47l of aluminum": "47000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 247,
+      "items": [
+        "28 peppers",
+        "3 tomatoes",
+        "41 peas"
+      ],
+      "normalized_values": {
+        "28 peppers": "28",
+        "3 tomatoes": "3",
+        "41 peas": "41"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 248,
+      "items": [
+        "14kg of metal",
+        "16g of rubber",
+        "17g of rubber",
+        "19mg of brass",
+        "25g of rubber"
+      ],
+      "normalized_values": {
+        "14kg of metal": "14000000",
+        "16g of rubber": "16000",
+        "17g of rubber": "17000",
+        "19mg of brass": "19",
+        "25g of rubber": "25000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 249,
+      "items": [
+        "1m of aluminum",
+        "21cm of metal",
+        "42cm of glass"
+      ],
+      "normalized_values": {
+        "1m of aluminum": "1000",
+        "21cm of metal": "210",
+        "42cm of glass": "420"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 250,
+      "items": [
+        "12g of glass",
+        "22g of rubber",
+        "23g of rubber",
+        "41kg of metal"
+      ],
+      "normalized_values": {
+        "12g of glass": "12000",
+        "22g of rubber": "22000",
+        "23g of rubber": "23000",
+        "41kg of metal": "41000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 251,
+      "items": [
+        "14ml of metal",
+        "19l of glass",
+        "30l of glass"
+      ],
+      "normalized_values": {
+        "14ml of metal": "14",
+        "19l of glass": "19000",
+        "30l of glass": "30000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 252,
+      "items": [
+        "13 tomatoes",
+        "33 prunes",
+        "41 peppers",
+        "5 peas",
+        "7 tomatoes"
+      ],
+      "normalized_values": {
+        "13 tomatoes": "13",
+        "33 prunes": "33",
+        "41 peppers": "41",
+        "5 peas": "5",
+        "7 tomatoes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 253,
+      "items": [
+        "11ml of aluminum",
+        "22ml of rubber",
+        "24ml of brass",
+        "37l of metal"
+      ],
+      "normalized_values": {
+        "11ml of aluminum": "11",
+        "22ml of rubber": "22",
+        "24ml of brass": "24",
+        "37l of metal": "37000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 254,
+      "items": [
+        "11ml of glass",
+        "1l of rubber",
+        "21l of metal"
+      ],
+      "normalized_values": {
+        "11ml of glass": "11",
+        "1l of rubber": "1000",
+        "21l of metal": "21000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 255,
+      "items": [
+        "23l of metal",
+        "42ml of brass",
+        "47ml of metal",
+        "48l of rubber"
+      ],
+      "normalized_values": {
+        "23l of metal": "23000",
+        "42ml of brass": "42",
+        "47ml of metal": "47",
+        "48l of rubber": "48000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 256,
+      "items": [
+        "1kg of rubber",
+        "20mg of glass",
+        "38kg of rubber",
+        "4mg of metal",
+        "50mg of brass"
+      ],
+      "normalized_values": {
+        "1kg of rubber": "1000000",
+        "20mg of glass": "20",
+        "38kg of rubber": "38000000",
+        "4mg of metal": "4",
+        "50mg of brass": "50"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 257,
+      "items": [
+        "15 blueberries",
+        "4 avocados",
+        "50 eggplants",
+        "8 eggplants"
+      ],
+      "normalized_values": {
+        "15 blueberries": "15",
+        "4 avocados": "4",
+        "50 eggplants": "50",
+        "8 eggplants": "8"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 258,
+      "items": [
+        "12 cabbages",
+        "49 peppers",
+        "5 peas"
+      ],
+      "normalized_values": {
+        "12 cabbages": "12",
+        "49 peppers": "49",
+        "5 peas": "5"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 259,
+      "items": [
+        "27mg of metal",
+        "2g of glass",
+        "36g of aluminum",
+        "50mg of aluminum"
+      ],
+      "normalized_values": {
+        "27mg of metal": "27",
+        "2g of glass": "2000",
+        "36g of aluminum": "36000",
+        "50mg of aluminum": "50"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 260,
+      "items": [
+        "1 tomato",
+        "24 cabbages",
+        "6 pumpkins",
+        "7 peas"
+      ],
+      "normalized_values": {
+        "1 tomato": "1",
+        "24 cabbages": "24",
+        "6 pumpkins": "6",
+        "7 peas": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 261,
+      "items": [
+        "14l of brass",
+        "22ml of glass",
+        "5ml of glass",
+        "7ml of rubber"
+      ],
+      "normalized_values": {
+        "14l of brass": "14000",
+        "22ml of glass": "22",
+        "5ml of glass": "5",
+        "7ml of rubber": "7"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 262,
+      "items": [
+        "11mm of rubber",
+        "22mm of glass",
+        "7mm of glass"
+      ],
+      "normalized_values": {
+        "11mm of rubber": "11",
+        "22mm of glass": "22",
+        "7mm of glass": "7"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "single-unit"
+    },
+    {
+      "seed": 263,
+      "items": [
+        "10cm of glass",
+        "16m of brass",
+        "21mm of glass",
+        "24m of rubber",
+        "47m of aluminum"
+      ],
+      "normalized_values": {
+        "10cm of glass": "100",
+        "16m of brass": "16000",
+        "21mm of glass": "21",
+        "24m of rubber": "24000",
+        "47m of aluminum": "47000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 264,
+      "items": [
+        "13cm of glass",
+        "17mm of glass",
+        "32mm of metal",
+        "36cm of glass",
+        "8m of glass"
+      ],
+      "normalized_values": {
+        "13cm of glass": "130",
+        "17mm of glass": "17",
+        "32mm of metal": "32",
+        "36cm of glass": "360",
+        "8m of glass": "8000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 265,
+      "items": [
+        "20g of metal",
+        "24g of rubber",
+        "26mg of glass",
+        "42kg of brass",
+        "50g of rubber"
+      ],
+      "normalized_values": {
+        "20g of metal": "20000",
+        "24g of rubber": "24000",
+        "26mg of glass": "26",
+        "42kg of brass": "42000000",
+        "50g of rubber": "50000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 266,
+      "items": [
+        "11mg of rubber",
+        "29kg of rubber",
+        "6g of aluminum"
+      ],
+      "normalized_values": {
+        "11mg of rubber": "11",
+        "29kg of rubber": "29000000",
+        "6g of aluminum": "6000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 267,
+      "items": [
+        "1cm of aluminum",
+        "28mm of aluminum",
+        "32mm of rubber",
+        "33cm of aluminum",
+        "42cm of rubber"
+      ],
+      "normalized_values": {
+        "1cm of aluminum": "10",
+        "28mm of aluminum": "28",
+        "32mm of rubber": "32",
+        "33cm of aluminum": "330",
+        "42cm of rubber": "420"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 268,
+      "items": [
+        "16m of glass",
+        "33m of brass",
+        "39cm of metal"
+      ],
+      "normalized_values": {
+        "16m of glass": "16000",
+        "33m of brass": "33000",
+        "39cm of metal": "390"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 269,
+      "items": [
+        "16 blueberries",
+        "25 eggplants",
+        "27 tomatoes",
+        "37 avocados"
+      ],
+      "normalized_values": {
+        "16 blueberries": "16",
+        "25 eggplants": "25",
+        "27 tomatoes": "27",
+        "37 avocados": "37"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 270,
+      "items": [
+        "12mm of rubber",
+        "37m of aluminum",
+        "46mm of brass",
+        "49cm of aluminum",
+        "4mm of brass"
+      ],
+      "normalized_values": {
+        "12mm of rubber": "12",
+        "37m of aluminum": "37000",
+        "46mm of brass": "46",
+        "49cm of aluminum": "490",
+        "4mm of brass": "4"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 271,
+      "items": [
+        "14l of metal",
+        "40ml of glass",
+        "42l of metal",
+        "47l of aluminum"
+      ],
+      "normalized_values": {
+        "14l of metal": "14000",
+        "40ml of glass": "40",
+        "42l of metal": "42000",
+        "47l of aluminum": "47000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 272,
+      "items": [
+        "25ml of rubber",
+        "35l of metal",
+        "46ml of aluminum"
+      ],
+      "normalized_values": {
+        "25ml of rubber": "25",
+        "35l of metal": "35000",
+        "46ml of aluminum": "46"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 273,
+      "items": [
+        "10mg of metal",
+        "17g of glass",
+        "29kg of rubber",
+        "39g of metal",
+        "47mg of brass"
+      ],
+      "normalized_values": {
+        "10mg of metal": "10",
+        "17g of glass": "17000",
+        "29kg of rubber": "29000000",
+        "39g of metal": "39000",
+        "47mg of brass": "47"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 274,
+      "items": [
+        "27l of rubber",
+        "2l of glass",
+        "36l of glass",
+        "40ml of metal",
+        "45l of brass"
+      ],
+      "normalized_values": {
+        "27l of rubber": "27000",
+        "2l of glass": "2000",
+        "36l of glass": "36000",
+        "40ml of metal": "40",
+        "45l of brass": "45000"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 275,
+      "items": [
+        "21l of brass",
+        "38ml of aluminum",
+        "48l of rubber",
+        "8ml of rubber"
+      ],
+      "normalized_values": {
+        "21l of brass": "21000",
+        "38ml of aluminum": "38",
+        "48l of rubber": "48000",
+        "8ml of rubber": "8"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 276,
+      "items": [
+        "36cm of aluminum",
+        "40cm of brass",
+        "4m of glass"
+      ],
+      "normalized_values": {
+        "36cm of aluminum": "360",
+        "40cm of brass": "400",
+        "4m of glass": "4000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 277,
+      "items": [
+        "16ml of metal",
+        "41l of metal",
+        "45ml of metal",
+        "50ml of rubber"
+      ],
+      "normalized_values": {
+        "16ml of metal": "16",
+        "41l of metal": "41000",
+        "45ml of metal": "45",
+        "50ml of rubber": "50"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 278,
+      "items": [
+        "12 avocados",
+        "16 cabbages",
+        "37 peppers",
+        "50 blueberries"
+      ],
+      "normalized_values": {
+        "12 avocados": "12",
+        "16 cabbages": "16",
+        "37 peppers": "37",
+        "50 blueberries": "50"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 279,
+      "items": [
+        "17cm of rubber",
+        "21mm of glass",
+        "22cm of brass",
+        "42mm of metal",
+        "50m of metal"
+      ],
+      "normalized_values": {
+        "17cm of rubber": "170",
+        "21mm of glass": "21",
+        "22cm of brass": "220",
+        "42mm of metal": "42",
+        "50m of metal": "50000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 280,
+      "items": [
+        "20mg of rubber",
+        "22g of rubber",
+        "34mg of metal"
+      ],
+      "normalized_values": {
+        "20mg of rubber": "20",
+        "22g of rubber": "22000",
+        "34mg of metal": "34"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 281,
+      "items": [
+        "11kg of aluminum",
+        "16kg of glass",
+        "23mg of aluminum",
+        "32g of aluminum"
+      ],
+      "normalized_values": {
+        "11kg of aluminum": "11000000",
+        "16kg of glass": "16000000",
+        "23mg of aluminum": "23",
+        "32g of aluminum": "32000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 282,
+      "items": [
+        "1 eggplant",
+        "24 squashes",
+        "4 prunes",
+        "44 tomatoes",
+        "48 peas"
+      ],
+      "normalized_values": {
+        "1 eggplant": "1",
+        "24 squashes": "24",
+        "4 prunes": "4",
+        "44 tomatoes": "44",
+        "48 peas": "48"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 283,
+      "items": [
+        "20 pumpkins",
+        "26 peppers",
+        "29 prunes",
+        "7 squashes"
+      ],
+      "normalized_values": {
+        "20 pumpkins": "20",
+        "26 peppers": "26",
+        "29 prunes": "29",
+        "7 squashes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 284,
+      "items": [
+        "12cm of rubber",
+        "39mm of glass",
+        "46mm of aluminum"
+      ],
+      "normalized_values": {
+        "12cm of rubber": "120",
+        "39mm of glass": "39",
+        "46mm of aluminum": "46"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 285,
+      "items": [
+        "13mm of rubber",
+        "42cm of metal",
+        "43m of brass",
+        "45cm of aluminum",
+        "4m of rubber"
+      ],
+      "normalized_values": {
+        "13mm of rubber": "13",
+        "42cm of metal": "420",
+        "43m of brass": "43000",
+        "45cm of aluminum": "450",
+        "4m of rubber": "4000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 286,
+      "items": [
+        "14ml of metal",
+        "2ml of glass",
+        "35l of metal",
+        "44ml of rubber"
+      ],
+      "normalized_values": {
+        "14ml of metal": "14",
+        "2ml of glass": "2",
+        "35l of metal": "35000",
+        "44ml of rubber": "44"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 287,
+      "items": [
+        "10mg of glass",
+        "17mg of aluminum",
+        "3g of brass",
+        "49mg of glass",
+        "50kg of brass"
+      ],
+      "normalized_values": {
+        "10mg of glass": "10",
+        "17mg of aluminum": "17",
+        "3g of brass": "3000",
+        "49mg of glass": "49",
+        "50kg of brass": "50000000"
+      },
+      "dimensions": [
+        "mass"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 288,
+      "items": [
+        "19l of brass",
+        "23ml of glass",
+        "34ml of glass"
+      ],
+      "normalized_values": {
+        "19l of brass": "19000",
+        "23ml of glass": "23",
+        "34ml of glass": "34"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 289,
+      "items": [
+        "11 avocados",
+        "14 prunes",
+        "36 prunes",
+        "49 tomatoes"
+      ],
+      "normalized_values": {
+        "11 avocados": "11",
+        "14 prunes": "14",
+        "36 prunes": "36",
+        "49 tomatoes": "49"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 290,
+      "items": [
+        "21mm of metal",
+        "30mm of glass",
+        "36m of aluminum"
+      ],
+      "normalized_values": {
+        "21mm of metal": "21",
+        "30mm of glass": "30",
+        "36m of aluminum": "36000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 291,
+      "items": [
+        "14cm of rubber",
+        "26mm of metal",
+        "35mm of aluminum",
+        "39cm of metal"
+      ],
+      "normalized_values": {
+        "14cm of rubber": "140",
+        "26mm of metal": "26",
+        "35mm of aluminum": "35",
+        "39cm of metal": "390"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 292,
+      "items": [
+        "19m of rubber",
+        "25cm of glass",
+        "26cm of brass",
+        "46cm of rubber",
+        "47mm of aluminum"
+      ],
+      "normalized_values": {
+        "19m of rubber": "19000",
+        "25cm of glass": "250",
+        "26cm of brass": "260",
+        "46cm of rubber": "460",
+        "47mm of aluminum": "47"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 293,
+      "items": [
+        "14 pumpkins",
+        "2 prunes",
+        "25 tomatoes",
+        "29 blueberries",
+        "39 avocados"
+      ],
+      "normalized_values": {
+        "14 pumpkins": "14",
+        "2 prunes": "2",
+        "25 tomatoes": "25",
+        "29 blueberries": "29",
+        "39 avocados": "39"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 294,
+      "items": [
+        "23cm of glass",
+        "24mm of brass",
+        "32m of metal",
+        "3mm of brass"
+      ],
+      "normalized_values": {
+        "23cm of glass": "230",
+        "24mm of brass": "24",
+        "32m of metal": "32000",
+        "3mm of brass": "3"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 295,
+      "items": [
+        "12l of glass",
+        "14l of metal",
+        "35l of brass",
+        "38ml of metal",
+        "47ml of aluminum"
+      ],
+      "normalized_values": {
+        "12l of glass": "12000",
+        "14l of metal": "14000",
+        "35l of brass": "35000",
+        "38ml of metal": "38",
+        "47ml of aluminum": "47"
+      },
+      "dimensions": [
+        "volume"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 296,
+      "items": [
+        "11mm of brass",
+        "18mm of brass",
+        "26m of glass",
+        "2m of glass",
+        "9m of aluminum"
+      ],
+      "normalized_values": {
+        "11mm of brass": "11",
+        "18mm of brass": "18",
+        "26m of glass": "26000",
+        "2m of glass": "2000",
+        "9m of aluminum": "9000"
+      },
+      "dimensions": [
+        "length"
+      ],
+      "has_ties": false,
+      "units_kind": "mixed-units"
+    },
+    {
+      "seed": 297,
+      "items": [
+        "25 squashes",
+        "38 squashes",
+        "7 prunes"
+      ],
+      "normalized_values": {
+        "25 squashes": "25",
+        "38 squashes": "38",
+        "7 prunes": "7"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 298,
+      "items": [
+        "19 avocados",
+        "25 peppers",
+        "30 blueberries",
+        "39 cabbages"
+      ],
+      "normalized_values": {
+        "19 avocados": "19",
+        "25 peppers": "25",
+        "30 blueberries": "30",
+        "39 cabbages": "39"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    },
+    {
+      "seed": 299,
+      "items": [
+        "16 avocados",
+        "19 tomatoes",
+        "48 squashes"
+      ],
+      "normalized_values": {
+        "16 avocados": "16",
+        "19 tomatoes": "19",
+        "48 squashes": "48"
+      },
+      "dimensions": [
+        "count"
+      ],
+      "has_ties": false,
+      "units_kind": "unitless"
+    }
+  ],
+  "run_date_moscow": "2026-11-02",
+  "status": "preliminary_automated_check",
+  "configuration": {
+    "gameName": "sorting",
+    "gameFold": "test",
+    "envStepLimit": 20,
+    "generateGoldPath": false,
+    "exhaustive_seeds_inclusive": [
+      0,
+      99
+    ],
+    "catalog_diagnostic_seeds_inclusive": [
+      0,
+      299
+    ]
+  },
+  "method": {
+    "items_source": "Initial validActions, take commands",
+    "normalization": "Independent exact rational arithmetic; mass in mg, length in mm, volume in ml; counts separate",
+    "execution": "Reset before every permutation; validate each take/put; stop at first done=True",
+    "acceptance": "score == 1.0 at first done=True",
+    "task_signature": "Sorted full object labels, ignoring room layout and initial placement",
+    "interval": "Two-sided Wilson 95%, z=1.959963984540054, one correct order per task without ties"
+  },
+  "manual_review": {
+    "status": "pending",
+    "selected_episode_count": 33,
+    "selected_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      16,
+      17,
+      18,
+      20,
+      24,
+      25,
+      26,
+      28,
+      29,
+      33,
+      34,
+      35,
+      37,
+      39,
+      40,
+      42,
+      47,
+      52,
+      57,
+      62,
+      82
+    ],
+    "selection": "First five seeds per object-count x units-kind intersection, or all seeds if fewer than five",
+    "template": "manual_proxy_review.csv"
+  },
+  "limitations": [
+    "Human verification is pending; automated results are preliminary.",
+    "The catalog is fixed, not a random sample of new tasks; Wilson intervals are binomial-model reference intervals.",
+    "Step-by-step action traces were not retained by this diagnostic run; a reproducible project runner with full CSV traces remains the next step."
+  ]
+}
