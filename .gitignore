@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Private Lab 3 judgments must never enter Git history before human annotation.
+audit/scorer.jsonl
+audit_private/
+.audit-private/
