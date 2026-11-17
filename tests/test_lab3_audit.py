@@ -49,14 +49,33 @@ class PreparedFilesTest(unittest.TestCase):
 
     def test_each_person_has_all_core_and_disjoint_second(self):
         rows = audit.read_csv(ROOT / "audit/annotations.csv")
+        expected = audit.annotation_rows(self.objects)
+
+        def check_assignments(actual, templates):
+            # Labels and times may be filled independently before merging packets.
+            assignment_fields = ("id", "annotator", "order")
+            self.assertEqual(
+                [tuple(row[field] for field in assignment_fields) for row in actual],
+                [tuple(row[field] for field in assignment_fields) for row in templates],
+            )
+            for row in actual:
+                with self.subTest(annotator=row["annotator"], object_id=row["id"]):
+                    self.assertEqual(set(row), set(audit.ANNOTATION_FIELDS))
+                    self.assertIn(row["instruction_version"], ("1.0", "1.1"))
+                    if row["label"]:
+                        self.assertIn(row["label"], audit.LABELS)
+                        self.assertTrue(0 <= float(row["elapsed_seconds"]) < float("inf"))
+                    else:
+                        self.assertEqual(row["elapsed_seconds"], "")
+
         self.assertEqual(len(rows), 112)
-        self.assertTrue(all(row["label"] == row["elapsed_seconds"] == "" for row in rows))
+        check_assignments(rows, expected)
         groups = {obj["id"]: obj["group"] for obj in self.objects}
         second_owners = Counter()
         for person in audit.ANNOTATORS:
             personal = audit.read_csv(ROOT / "annotation_packets" / f"{person}.csv")
-            assigned = [row for row in rows if row["annotator"] == person]
-            self.assertEqual(personal, assigned)
+            assigned = [row for row in expected if row["annotator"] == person]
+            check_assignments(personal, assigned)
             self.assertEqual(Counter(groups[row["id"]] for row in personal), {"core": 20, "second": 8})
             second_owners.update(row["id"] for row in personal if groups[row["id"]] == "second")
         self.assertEqual(len(second_owners), 32)
