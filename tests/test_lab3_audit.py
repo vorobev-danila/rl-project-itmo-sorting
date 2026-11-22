@@ -92,10 +92,16 @@ class PreparedFilesTest(unittest.TestCase):
             self.assertEqual(path.read_text(encoding="utf-8"), "human work")
 
     def test_release_blocks_empty_annotation_before_reading_private_data(self):
-        with self.assertRaisesRegex(ValueError, "core judgments"):
-            audit.release(ROOT, ROOT / "not-a-private-directory")
-        self.assertFalse((ROOT / "audit/scorer.jsonl").exists())
-        self.assertEqual(audit.read_csv(ROOT / "audit/probe_results.csv"), [])
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "audit").mkdir()
+            audit.write_jsonl(root / "audit/slice.jsonl", self.objects)
+            annotations = audit.annotation_rows(self.objects)
+            audit.write_csv(root / "audit/annotations.csv", audit.ANNOTATION_FIELDS, annotations)
+            with self.assertRaisesRegex(ValueError, "core judgments"):
+                audit.release(root, root / "not-a-private-directory")
+            self.assertFalse((root / "audit/scorer.jsonl").exists())
+            self.assertFalse((root / "audit/probe_results.csv").exists())
 
     def test_minimum_human_protocol_and_invalid_time(self):
         # Synthetic judgments test the validator only; never written to submission files.
