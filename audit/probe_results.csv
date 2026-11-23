@@ -1,0 +1,4 @@
+﻿probe,n,metric,value,interpretation
+false_acceptance,26,FP / mathematically_incorrect,0.0,"0/26. Доля неверных порядков, принятых средой."
+false_rejection,26,FN / mathematically_correct,0.0,"0/26. Доля правильных порядков, отклонённых средой."
+numeric_only_mixed_units,37,baseline_disagreement_with_proxy,0.7837837837837838,29/37. Ошибки numeric-only.
